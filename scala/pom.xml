@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.theFears</groupId>
+    <artifactId>scala</artifactId>
+	<version>0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+	<properties>
+		<maven-scala-plugin.version>2.9.1</maven-scala-plugin.version>
+		<scala.version>2.9.1</scala.version>
+		<scalatest.version>1.7.1</scalatest.version>
+		<specs2.version>1.7.1</specs2.version>
+		<surefire-plugin.version>2.11</surefire-plugin.version>
+	</properties>
+
+    <dependencies>
+        <dependency>
+           <groupId>org.specs2</groupId> 
+           <artifactId>specs2_2.9.1</artifactId> 
+           <version>${specs2.version}</version> 
+           <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.9.1</artifactId>
+            <version>${scalatest.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>src/main/scala</sourceDirectory>
+        <testSourceDirectory>src/test/scala</testSourceDirectory>
+
+        <plugins>
+            <plugin>
+                <groupId>org.scala-tools</groupId>
+                <artifactId>maven-scala-plugin</artifactId>
+                <version>${maven-scala-plugin.version}</version>
+                <configuration>
+                    <scalaVersion>${scala.version}</scalaVersion>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>compile</goal>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
