@@ -21,11 +21,20 @@ describe('Simple javascript exercises', function() {
             expect(function() { Simple.max(1, "a", 3); }).toThrow('Invalid Argument');
         });
     });
-
+    
     describe("isVowel", function() {
         it("should check wehether the argument is a vowel", function() {
             expect(Simple.isVowel("a")).toBe(true);
             expect(Simple.isVowel("b")).toBe(false);
+        });
+        
+        it("should throw an exception if the string is longer than a single character", function() {
+            expect(function() { Simple.isVowel(""); }).toThrow('Invalid Argument');
+            expect(function() { Simple.isVowel("ab"); }).toThrow('Invalid Argument');
+        });
+        
+        it("should require a parameter", function() {
+            expect(function() { Simple.isVowel(); }).toThrow('Argument Required');
         });
     });
 });

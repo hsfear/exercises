@@ -11,5 +11,7 @@ exports.max = function() {
 };
 
 exports.isVowel = function(character) {
+    if (arguments.length === 0) throw new Error('Argument Required');
+    if (character.length !== 1) throw new Error("Invalid Argument");
     return /[aeiou]/.test(character);
 };
