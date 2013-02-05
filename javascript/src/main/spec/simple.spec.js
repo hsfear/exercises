@@ -37,4 +37,19 @@ describe('Simple javascript exercises', function() {
             expect(function() { Simple.isVowel(); }).toThrow('Argument Required');
         });
     });
+
+    describe("translate", function() {
+        it("should double every consonant and put an 'o' in between", function() {
+            expect(Simple.translate("bcdfghjklmnpqrstvwxyz")).toBe("bobcocdodfofgoghohjojkoklolmomnonpopqoqrorsostotvovwowxoxyoyzoz");
+        });
+        it("should not double any vowel", function() {
+            expect(Simple.translate("aeiou")).toBe("aeiou");
+        });
+    });
+
+    describe("count words", function() {
+       it("should count a single word", function() {
+           expect(Simple.countWords("hello")).toBe(1);
+       });
+    });
 });
