@@ -22,4 +22,59 @@ describe('The Bowling Game', function() {
     it("adds the next ball after a strike for an incomplete frame", function() {
         new BowlingGame().roll(10).roll(5).score().should.eql(20);
     });
+    it("correctly ends in the 10th frame for a game with no marks", function() {
+        var game = new BowlingGame();
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.true;
+    });
+    it("correctly accounts for strikes", function() {
+        var game = new BowlingGame();
+        game.roll(10).isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.false;
+        game.roll(1).roll().isDone().should.be.true;
+    });
+    it("correctly accounts for strikes in the 10th frame", function() {
+        var game = new BowlingGame();
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(10).isDone().should.be.false;
+        game.roll(10).isDone().should.be.false;
+        game.roll(10).isDone().should.be.true;
+    });
+    it("correctly accounts for spares in the 10th frame", function() {
+        var game = new BowlingGame();
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(1).roll(1).isDone().should.be.false;
+        game.roll(9).roll(1).isDone().should.be.false;
+        game.roll(10).isDone().should.be.true;
+    });
 });
