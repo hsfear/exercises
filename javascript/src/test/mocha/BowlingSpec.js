@@ -1,7 +1,7 @@
 "use strict";
 
-var BowlingGame = require("../../main/BowlingGame.js")
-  , should = require('should');
+var BowlingGame = require("../../main/BowlingGame.js"),
+    should = require('should');
 
 describe('The Bowling Game', function() {
     it("returns a score of 0 for a new game", function() {

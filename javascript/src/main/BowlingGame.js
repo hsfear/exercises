@@ -1,10 +1,10 @@
 var BowlingGame = (function() {
-        var calculateScore = function(frame, rolls) {
-            if (rolls.length === 0) return 0;
-            if (rolls.length === 1) return rolls[0];
-            if (hasStrike(rolls)) return sum(rolls.slice(0, 3)) + calculateScore(frame + 1, rolls.slice(1));
-            if (hasSpare(rolls)) return sum(rolls.slice(0, 3)) + calculateScore(frame + 1, rolls.slice(2));
-            return rolls[0] + rolls[1] + calculateScore(frame + 1, rolls.slice(2));
+        var calculateScore = function(score, frame, rolls) {
+            if (rolls.length === 0) return score;
+            if (rolls.length === 1) return score + rolls[0];
+            if (hasStrike(rolls)) return calculateScore(score + sum(rolls.slice(0, 3)), frame + 1, rolls.slice(1));
+            if (hasSpare(rolls)) return calculateScore(score + sum(rolls.slice(0, 3)), frame + 1, rolls.slice(2));
+            return calculateScore(score + rolls[0] + rolls[1], frame + 1, rolls.slice(2));
         };
 
         var checkDone = function(frame, rolls) {
@@ -30,7 +30,7 @@ var BowlingGame = (function() {
     return function() {
         return {
             rolls: [],
-            score: function() { return calculateScore(1, this.rolls); },
+            score: function() { return calculateScore(0, 1, this.rolls); },
             isDone: function() { return checkDone(1, this.rolls); },
             roll: function(roll) { if (this.isDone()) throw new DoneError(); this.rolls.push(roll); return this; }
         };
