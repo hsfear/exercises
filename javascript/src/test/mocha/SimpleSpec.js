@@ -1,4 +1,4 @@
-var Simple = require("../main/Simple.js")
+var Simple = require("../../main/Simple.js")
   , should = require('should');
 
 describe('Simple javascript exercises', function() {
