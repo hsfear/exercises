@@ -1,0 +1,13 @@
+{application, fib,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {modules, [ fib ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { fib_app, []}},
+  {env, []}
+ ]}.
