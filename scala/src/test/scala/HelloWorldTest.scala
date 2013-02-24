@@ -7,7 +7,10 @@
  */
 
 import org.specs2.mutable._
+import org.junit.runner.RunWith
+import org.specs2.runner.JUnitRunner
 
+@RunWith(classOf[JUnitRunner])
 class HelloWorldTest extends Specification {
 
   "The 'Hello world' string" should {

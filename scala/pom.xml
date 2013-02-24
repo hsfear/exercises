@@ -5,27 +5,42 @@
 	<version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-	<properties>
-		<maven-scala-plugin.version>2.9.1</maven-scala-plugin.version>
-		<scala.version>2.9.1</scala.version>
-		<scalatest.version>1.7.1</scalatest.version>
-		<specs2.version>1.7.1</specs2.version>
-		<surefire-plugin.version>2.11</surefire-plugin.version>
-	</properties>
+    <properties>
+        <maven-scala-plugin.version>2.15.0</maven-scala-plugin.version>
+        <scala.version>2.10.0</scala.version>
+    </properties>
 
     <dependencies>
         <dependency>
-           <groupId>org.specs2</groupId> 
-           <artifactId>specs2_2.9.1</artifactId> 
-           <version>${specs2.version}</version> 
+           <groupId>org.scala-lang</groupId>
+           <artifactId>scala-library</artifactId>
+           <version>${scala.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2_2.10</artifactId>
+            <version>1.14</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>scalaz-core_2.10</artifactId>
+            <version>7.0.0</version>
+        </dependency>
+
+        <dependency>
+           <groupId>junit</groupId>
+           <artifactId>junit</artifactId>
+           <version>4.8.1</version>
            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.9.1</artifactId>
-            <version>${scalatest.version}</version>
-            <scope>test</scope>
+            <artifactId>scalatest_2.10.0</artifactId>
+            <version>2.0.M5</version>
+           <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -46,6 +61,20 @@
                         <goals>
                             <goal>compile</goal>
                             <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.mmakowski</groupId>
+                <artifactId>maven-specs2-plugin</artifactId>
+                <version>0.4.1</version>
+                <executions>
+                    <execution>
+                        <id>verify</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>run-specs</goal>
                         </goals>
                     </execution>
                 </executions>

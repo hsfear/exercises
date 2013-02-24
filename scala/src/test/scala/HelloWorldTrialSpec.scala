@@ -8,7 +8,7 @@
 
 import org.specs2._
 
-class HelloWorldTrialTest extends Specification { def is =
+class HelloWorldTrialSpec extends Specification { def is =
 
   "This is a specification to check the 'Hello world' string"                 ^
     p^

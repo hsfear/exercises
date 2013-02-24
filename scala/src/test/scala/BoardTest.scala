@@ -8,7 +8,10 @@
  */
 import scala.math.abs
 import org.specs2.mutable._
+import org.junit.runner.RunWith
+import org.specs2.runner.JUnitRunner
 
+@RunWith(classOf[JUnitRunner])
 class BoardTest extends Specification {
   "The board" should {
     "be empty when created empty" in {
