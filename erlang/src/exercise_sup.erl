@@ -1,5 +1,5 @@
 
--module(fib_sup).
+-module(exercise_sup).
 
 -behaviour(supervisor).
 

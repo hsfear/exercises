@@ -1,13 +1,13 @@
-{application, fib,
+{application, exercise,
  [
   {description, ""},
   {vsn, "1"},
-  {modules, [ fib ]},
+  {modules, [ fib, conversions ]},
   {registered, []},
   {applications, [
                   kernel,
                   stdlib
                  ]},
-  {mod, { fib_app, []}},
+  {mod, { exercise_app, []}},
   {env, []}
  ]}.

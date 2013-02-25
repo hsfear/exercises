@@ -1,4 +1,4 @@
--module(fib_app).
+-module(exercise_app).
 
 -behaviour(application).
 
@@ -10,7 +10,7 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-    fib_sup:start_link().
+    exercise_sup:start_link().
 
 stop(_State) ->
     ok.
