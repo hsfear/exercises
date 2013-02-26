@@ -10,6 +10,6 @@ libraryDependencies ++= Seq(
     "org.scalatest" % "scalatest_2.9.2" % "2.0.M5" % "test"
 )
 
-// keep only specifications ending with Spec or Unit
-testOptions := Seq(Tests.Filter(s => Seq("Spec", "Test").exists(s.endsWith(_))))
+// keep only specifications ending with Spec or Test
+// testOptions := Seq(Tests.Filter(s => Seq("Spec", "Test").exists(s.endsWith(_))))
   
