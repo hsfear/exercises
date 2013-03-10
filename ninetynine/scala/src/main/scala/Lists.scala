@@ -15,11 +15,10 @@ class Lists() {
       case _ => throw new NoSuchElementException()
     }
 
-  def kth(list: List[Int], k: Int): Int = {
-    require(k > 0)
+  def kth(list: List[Int], k: Int): Int =
     k match {
       case 1 => list.head
-      case _ => kth(list.tail, k - 1)
+      case n if n > 1 => kth(list.tail, k - 1)
+      case _ => throw new IllegalArgumentException()
     }
-  }
 }
