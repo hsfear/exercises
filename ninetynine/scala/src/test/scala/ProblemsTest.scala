@@ -22,4 +22,10 @@ class ProblemsTest extends Specification {
       new Lists().penultimate(List(1, 1, 2, 3, 5, 8)) must beEqualTo(5)
     }
   }
+
+  "P3: Lists.kth" should {
+    "return the kth element of a list" in {
+      new Lists().kth(List(1, 2, 3, 4, 5), 4) must beEqualTo(4)
+    }
+  }
 }

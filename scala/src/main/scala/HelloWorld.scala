@@ -10,6 +10,7 @@ class HelloWorld(words:Array[String]) {
   override def toString:String = if (!words.isEmpty) words.reduceLeft[String] { (acc, n) => acc + " " + n } else ""
 }
 
+
 object HelloWorld extends App {
   override def main(args:Array[String]) =  println(new HelloWorld(args).toString)
 }
