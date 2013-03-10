@@ -6,15 +6,15 @@ object Lists {
   def last(list: List[Int]): Int =
     list match {
       case last :: Nil => last
-      case _ :: _ => last(list.tail)
-      case _ => throw new NoSuchElementException()
+      case Nil => throw new NoSuchElementException()
+      case _ => last(list.tail)
     }
 
   def penultimate(list: List[Int]): Int =
     list match {
       case head :: _ :: Nil => head
-      case _ :: _ :: tail  => penultimate(list.tail)
-      case _ => throw new NoSuchElementException()
+      case Nil => throw new NoSuchElementException()
+      case _  => penultimate(list.tail)
     }
 
   def kth(list: List[Int], k: Int): Int =
