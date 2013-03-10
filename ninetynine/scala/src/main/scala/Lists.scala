@@ -1,7 +1,9 @@
 import scala.math.abs
 
-class Lists() {
-  def last(list: List[Int]): Int = 
+class Lists { }
+
+object Lists {
+  def last(list: List[Int]): Int =
     list match {
       case last :: Nil => last
       case _ :: _ => last(list.tail)
@@ -21,4 +23,6 @@ class Lists() {
       case n if n > 1 => kth(list.tail, k - 1)
       case _ => throw new IllegalArgumentException()
     }
+
+  def length(list: List[Int]): Int = list.foldLeft(0)((length, _) => length + 1)
 }
