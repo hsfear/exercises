@@ -28,11 +28,19 @@ class ProblemsTest extends Specification {
     "return the kth element of a list" in {
       kth(List(1, 2, 3, 4, 5), 4) must beEqualTo(4)
     }
+    "throw an exception if the k < 1" in {
+      kth(List(), 0) must throwAn[IllegalArgumentException]
+      kth(List(), -1) must throwAn[IllegalArgumentException]
+    }
+    "throw an exception if the k > the length of the list" in {
+      kth(List(), 1) must throwA[NoSuchElementException]
+    }
   }
 
   "P4: length" should {
     "return the length of a list" in {
-      Lists.length(List(1, 2, 3, 4)) must beEqualTo(4)
+       Lists.length(List(1, 2, 3, 4)) must beEqualTo(4)
+       Lists.length(List()) must beEqualTo(0)
     }
   }
 }
