@@ -43,4 +43,10 @@ class ProblemsTest extends Specification {
        Lists.length(List()) must beEqualTo(0)
     }
   }
+
+  "P5: reverse" should {
+    "reverse the list" in {
+      Lists.reverse(List(1,2,3,4,5)) must beEqualTo(List(5,4,3,2,1))
+    }
+  }
 }

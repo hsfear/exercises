@@ -25,4 +25,7 @@ object Lists {
     }
 
   def length(list: List[Int]): Int = list.foldLeft(0)((length, _) => length + 1)
+
+  def reverse(list: List[Int]): List[Int] =
+    list.foldLeft(Nil: List[Int])((acc, head) => head :: acc)
 }
