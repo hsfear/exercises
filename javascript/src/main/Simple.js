@@ -12,7 +12,7 @@ exports.max = function() {
 exports.isVowel = function(character) {
     if (arguments.length === 0) throw new Error('Argument Required');
     if (character.length !== 1) throw new Error("Invalid Argument");
-    return /[aeiou]/.test(character);
+    return (/[aeiou]/).test(character);
 };
 
 exports.translate = function(string) {
@@ -21,4 +21,8 @@ exports.translate = function(string) {
 
 exports.countWords = function(string) {
     return string.split(/\W+/).length;
+};
+
+exports.length = function() {
+    return Array.prototype.slice.call(arguments).reduce(function(length, element) { return length + 1 }, 0);
 };

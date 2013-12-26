@@ -1,0 +1,1 @@
+// copy in your fixed ex6.js code

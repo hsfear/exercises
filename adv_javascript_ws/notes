@@ -1,0 +1,47 @@
+-*- mode: org; -*-
+
+* Polyfill
+  Shims for implementing later javascript functionality on earlier javascript engines.
+
+* Events
+** Event capture vs. event bubbling
+   Capture captures on the way down the dom, bubbling on the way back up
+   jQuery does not support capturing
+** Don't return false from event handlers
+   use event.preventDefault() and event.stopPropogation() instead
+
+* Named functions
+** Don't work in IE 6.0 but who cares
+** Use them because it improves debugging
+   devtools reports the function by name instead of by "anonymous"
+
+* Scope
+** Scope is usually lexical - scope is the enclosing function
+** 'eval' and 'with' allow you to modify lexical scope but turn off performance optimization
+** IIFE: Immediately Invoked Function Expression
+
+* Hoisting
+** For variables, only the declaration is hoisted.  For functions, the entire definition is hoisted.
+   var a = b();
+   function b() { return "help"; }
+
+   is exactly the same as:
+   function b() { return help; };
+   var a;
+   a = b();
+
+   Hoisting moves first functional declarations then variable declarations to the top of the block.
+
+* Binding
+** bind binds a function to a specific object (this = object)
+   function foo() {
+       return this.bar;
+   }
+   var obj = { bar: "hello, world" };
+   var bound = foo.bind(obj);
+   expect(bound()).to.be.equal("hello, world");
+** when I execute a named function, what is 'this' bound to?
+   - If I call using call or apply, it is bound to the argument
+   - If its called using new, an object is created and the function is bound to it
+   - If its called from an owning or containing object
+   - the default is the global object
