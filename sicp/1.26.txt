@@ -1,0 +1,2 @@
+By using an explicit multiplier intead of a square, you force the operand to be evaluated twice. So, instead of log(n) evaluations, you
+have nlog(n)
