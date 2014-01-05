@@ -1,0 +1,4 @@
+a) Because he constructs the list by starting with an empty answer then taking the top element from the original list,
+squaring it and adding it to the answer and then repeating this for the remainder of the elements in the original list.
+
+b) consing answer with an element does not create a well-formed list.
