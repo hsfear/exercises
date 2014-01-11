@@ -9,11 +9,12 @@
   (cond ((=number? a1 0) a2)
         ((=number? a2 0) a1)
         ((and (number? a1) (number? a2)) (+ a1 a2))
-        (else (list a1 ’+ a2))))
-(define (sum? x) (and (pair? x) (eq? (cadr x) ’+)))
+        (else (list a1 '+ a2))))
+(define (sum? x) (and (pair? x) (eq? (cadr x) '+)))
 (define (addend s) (car s))
 (define (augend s)
-  (if (= 1 (length (cddr s))) (caddr s)
+  (if (null? (cdddr s))
+    (caddr s)
     (make-sum (caddr s) (cdddr s))))
 
 ;(define (make-product m1 m2) (list ’* m1 m2))
@@ -22,11 +23,12 @@
         ((=number? m1 1) m2)
         ((=number? m2 1) m1)
         ((and (number? m1) (number? m2)) (* m1 m2))
-        (else (list m1 ’* m2))))
-(define (product? x) (and (pair? x) (eq? (cadr x) ’*)))
+        (else (list m1 '* m2))))
+(define (product? x) (and (pair? x) (eq? (cadr x) '*)))
 (define (multiplier p) (car p))
 (define (multiplicand p)
-  (if (= 1 (length (cddr p))) (caddr p)
+  (if (null? (cdddr p))
+    (caddr p)
     (make-product (caddr p) (cdddr p))))
 
 ; (define (make-exponentiation base exponent) (list '** base exponent))
@@ -36,7 +38,7 @@
         (else (list base '** exponent))))
 (define (base e) (car e))
 (define (exponent e) (caddr e))
-(define (exponentiation? e) (and (pair e) (eq? (cadr e) '**)))
+(define (exponentiation? e) (and (pair? e) (eq? (cadr e) '**)))
 
 (define (deriv exp var)
   (cond ((number? exp) 0)
@@ -52,7 +54,11 @@
             (make-product (deriv (multiplier exp) var)
                           (multiplicand exp))))
         ((exponentiation? exp)
-         (make-product (make-product (exponent exp) (make-exponentiation (base exp) (- (exponent exp) 1)))
+         (make-product (make-product (exponent exp) (make-exponentiation (base exp) (make-sum (exponent exp) '-1)))
                        (deriv (base exp) var)))
         (else
           (error "unknown expression type -- DERIV" exp))))
+
+(deriv '(x + 3) 'x)
+(deriv '(x * y) 'x)
+
