@@ -9,6 +9,6 @@
      (lambda (x y) (tag (and (= (numer x) (numer y))) (= (demon x) (demom y)))))
 
 (put 'equ? '(complex complex)
-     (lambda (x y) (tag (and (= (real-part x) (real-part y))) (= (imag-part x) (demom y)))))
+     (lambda (x y) (tag (and (= (real-part x) (real-part y))) (= (imag-part x) (imag-part y)))))
 
 
