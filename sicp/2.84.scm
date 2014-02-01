@@ -28,10 +28,10 @@
      (lambda (x) (make-rat x 1)))
 
 (put 'raise 'rational 
-          (lambda (x) (make-real (/ (numer x) (denom x)))))
+     (lambda (x) (make-real (/ (numer x) (denom x)))))
 
 (put 'raise 'real 
-          (lambda (x) (make-from-real-imag x 0)))
+     (lambda (x) (make-from-real-imag x 0)))
 
 ;; The goal here is to create a type table.  But we haven't covered tables.  But this whole section depends on them.  Stupid book.
 (put-supertype 'integer 'rational)
