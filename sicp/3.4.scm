@@ -1,0 +1,37 @@
+#lang scheme
+
+(define (make-account balance password)
+  (define (call-the-cops) "Call the cops")
+  (let ((bad-attempts 0))
+    (define (withdraw amount)
+      (if (>= balance amount)
+          (begin (set! balance (- balance amount))
+                 balance) 
+          "Insufficient funds")) 
+    (define (deposit amount) 
+      (set! balance (+ balance amount))
+      balance) 
+    (define (dispatch p m)
+      (if (not (eq? p password)) (lambda (x)
+                                   (set! bad-attempts (+ bad-attempts 1))
+                                   (if (eq? bad-attempts 7) (call-the-cops) "Incorrect password"))
+          (begin
+            (set! bad-attempts 0)
+            (cond ((eq? m 'withdraw) withdraw) 
+                  ((eq? m 'deposit) deposit) 
+                  (else (error "Unknown request -- MAKE-ACCOUNT" m))))))
+    dispatch))
+
+(define acc (make-account 100 'secret-password))
+
+((acc 'secret-password 'withdraw) 40)
+((acc 'some-other-password 'deposit) 50)
+((acc 'some-other-password 'deposit) 50)
+((acc 'some-other-password 'deposit) 50)
+((acc 'some-other-password 'deposit) 50)
+((acc 'some-other-password 'deposit) 50)
+((acc 'some-other-password 'deposit) 50)
+((acc 'some-other-password 'deposit) 50)
+
+((acc 'secret-password 'withdraw) 40)
+((acc 'some-other-password 'deposit) 50)
