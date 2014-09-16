@@ -23,15 +23,16 @@ class Circle < Point
   attr_writer :r
 
   def initialize(*args)
-    if (args.length == 1)
-      super(args[0].x, args[0].y)
-      @r = args[0].r
-    elsif (args.length == 2)
-      super(args[0].x, args[0].y)
-      @r = args[1]
-    else
-      super(args[0], args[1])
-      @r = args[2]
+    case args.length
+      when 1
+        super(args[0].x, args[0].y)
+        @r = args[0].r
+      when 2
+        super(args[0].x, args[0].y)
+        @r = args[1]
+      else
+        super(args[0], args[1])
+        @r = args[2]
     end   
   end
 
