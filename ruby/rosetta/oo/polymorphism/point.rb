@@ -5,4 +5,8 @@ class Point
     @x = x
     @y = y
   end
+
+  def print
+    puts("Point")
+  end
 end
