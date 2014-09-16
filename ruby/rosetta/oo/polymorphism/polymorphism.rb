@@ -2,13 +2,14 @@ class Point
   attr_reader :x, :y
   attr_writer :x, :y
 
-  def self.newCopy(original)
-      Point.new(original.x, original.y)
-  end
-
-  def initialize(x, y)
-    @x = x
-    @y = y
+  def initialize(*args)
+    if (args.length == 1)
+      @x = args[0].x
+      @y = args[0].y
+    else
+      @x = args[0]
+      @y = args[1]
+    end   
   end
 
   def print
@@ -21,13 +22,17 @@ class Circle < Point
   attr_reader :r
   attr_writer :r
 
-  def self.newCopy(original)
-      Circle.new(original.x, original.y, original.r)
-  end
-
-  def initialize(x, y, r)
-    super(x, y)
-    @r = r
+  def initialize(*args)
+    if (args.length == 1)
+      super(args[0].x, args[0].y)
+      @r = args[0].r
+    elsif (args.length == 2)
+      super(args[0].x, args[0].y)
+      @r = args[1]
+    else
+      super(args[0], args[1])
+      @r = args[2]
+    end   
   end
 
   def print
