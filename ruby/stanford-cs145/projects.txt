@@ -1,0 +1,10 @@
+http://web.stanford.edu/class/cs142/cgi-bin/projects.php
+
+http://web.stanford.edu/class/cs142/cgi-bin/project.php?project=1
+http://web.stanford.edu/class/cs142/cgi-bin/project.php?project=2
+http://web.stanford.edu/class/cs142/cgi-bin/project.php?project=3
+http://web.stanford.edu/class/cs142/cgi-bin/project.php?project=4
+http://web.stanford.edu/class/cs142/cgi-bin/project.php?project=5
+http://web.stanford.edu/class/cs142/cgi-bin/project.php?project=6
+http://web.stanford.edu/class/cs142/cgi-bin/project.php?project=7
+http://web.stanford.edu/class/cs142/cgi-bin/project.php?project=8
