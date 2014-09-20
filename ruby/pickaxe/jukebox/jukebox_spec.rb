@@ -66,6 +66,20 @@ describe SongList do
     song = list.with_title("Have a Cigar")
     expect(song).to eq(@hac)
   end
+
+  it "can find a song with a word in a title" do
+    list = SongList.new()
+    list.append(@wywh)
+    list.append(@hac)
+    song = list.lookup("cigar")
+    expect(song).to eq(@hac)
+  end
+
+  it "can create a saved search" do
+    list.create_search('short jazz songs',
+                       :genre => :jazz,
+                       :duration_less_than => 270)
+  end
 end
 
 describe SongList::Importer do
@@ -83,6 +97,16 @@ describe SongList::Importer do
     expect(song.name).to eq("Wonderful World")
     expect(song.artist).to eq("Louis Armstrong")
     expect(song.duration).to eq(178)
+  end
+  it "can normalizes artists names" do
+    @data = <<END
+/jazz/j00132.mp3   | 3:45 | fats waller         | Ain't Misbehavin'
+    END
+
+    list = SongList.new()
+    File.stub(:open).with("filename","rb") { StringIO.new(data) }
+    list.import("filename")
+    expect(list[0].artist).to eq("Fats Waller")
   end
 end
 
