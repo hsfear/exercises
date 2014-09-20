@@ -68,6 +68,24 @@ describe SongList do
   end
 end
 
+describe SongList::Importer do
+  it "can import a songlist file" do
+    @data = <<END
+/jazz/j00132.mp3   | 3:45 | Fats Waller         | Ain't Misbehavin'
+/jazz/j00319.mp3   | 2:58 | Louis Armstrong     | Wonderful World
+/bgrass/bg0732.mp3 | 4:09 | Strength in Numbers | Texas Red
+    END
+
+    list = SongList.new()
+    File.stub(:open).with("filename","rb") { StringIO.new(data) }
+    list.import("filename")
+    song = list.with_title("Wonderful World")
+    expect(song.name).to eq("Wonderful World")
+    expect(song.artist).to eq("Louis Armstrong")
+    expect(song.duration).to eq(178)
+  end
+end
+
 describe Button do
   it "has a label" do
     button = Button.new("button")
