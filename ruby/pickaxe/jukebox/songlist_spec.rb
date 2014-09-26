@@ -2,29 +2,6 @@ require_relative 'song'
 require_relative 'songlist'
 require_relative 'button'
 
-describe Song do
-  before(:each) do
-    Song.reset_plays
-    @wywh = Song.new("Wish You Were Here", "Pink Floyd", 317)
-    @hac = Song.new("Have a Cigar", "Pink Floyd", 324)
-  end
-
-  it "has name, artist, and duration" do
-    expect(@wywh.name).to eq("Wish You Were Here")
-    expect(@wywh.artist).to eq("Pink Floyd")
-    expect(@wywh.duration).to eq(317)
-  end
-  it "keeps track of the number of times a song has been played" do
-    @wywh.play
-    expect(@wywh.plays).to eq(1)
-  end
-  it "keeps track of the number of times all songs have been played" do
-    @wywh.play
-    @hac.play
-    expect(Song.plays).to eq(2)
-  end
-end
-
 describe SongList do
   before(:each) do
     Song.reset_plays
@@ -88,7 +65,7 @@ describe SongList::Importer do
 /jazz/j00132.mp3   | 3:45 | Fats Waller         | Ain't Misbehavin'
 /jazz/j00319.mp3   | 2:58 | Louis Armstrong     | Wonderful World
 /bgrass/bg0732.mp3 | 4:09 | Strength in Numbers | Texas Red
-    END
+END
 
     list = SongList.new()
     File.stub(:open).with("filename","rb") { StringIO.new(data) }
@@ -101,33 +78,11 @@ describe SongList::Importer do
   it "can normalizes artists names" do
     @data = <<END
 /jazz/j00132.mp3   | 3:45 | fats waller         | Ain't Misbehavin'
-    END
+END
 
     list = SongList.new()
     File.stub(:open).with("filename","rb") { StringIO.new(data) }
     list.import("filename")
     expect(list[0].artist).to eq("Fats Waller")
   end
-end
-
-describe Button do
-  it "has a label" do
-    button = Button.new("button")
-    expect(button.label).to eq("button")
-  end
-end
-
-describe JukeboxButton do
-  it "extends button" do
-    button = JukeboxButton.new("button") { }
-    expect(button.label).to eq("button")
-  end
-
-  it "runs the provided action when the button is pressed" do
-    pressed = false
-    button = JukeboxButton.new("button") { pressed = true }
-    button.press()
-    expect(pressed).to eq(true)
-  end
-
 end

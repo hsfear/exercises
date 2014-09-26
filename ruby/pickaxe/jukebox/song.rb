@@ -12,10 +12,10 @@ class Song
   end
 
   def initialize(name, artist, duration)
-      @name = name
-      @artist = artist
-      @duration = duration
-      @plays = 0
+    @name = name
+    @artist = artist
+    @duration = duration
+    @plays = 0
   end
 
   def play

@@ -30,5 +30,8 @@ class SongList
   def with_title(title)
     @songs.find { | song | song.name == title }
   end
+
+  class Importer
+  end
 end
 

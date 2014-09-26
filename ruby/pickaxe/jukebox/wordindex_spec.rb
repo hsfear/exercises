@@ -1,3 +1,5 @@
+require_relative 'wordindex';
+
 describe WordIndex do
   it "indexes an object by words in a provided phrase" do
     index = WordIndex.new()
@@ -25,4 +27,5 @@ describe WordIndex do
     index = WordIndex.new()
     index.add_to_index(10, "This isn't a bed-time story")
     expect(index.lookup("bed-time")).to eq(10)
+  end
 end
