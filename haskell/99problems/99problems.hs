@@ -77,5 +77,51 @@ myFlatten (Elem a) = [a]
 myFlatten (List []) = []
 myFlatten (List (x:xs)) = (myFlatten x) ++ (myFlatten (List xs))
 myFlattenTest = test [ "myFlatten (Elem 5)" ~: myFlatten (Elem 5) ~?= [5],
-                       "myFlatten (List [])" ~: null (myFlatten (List [])) ~?= True,
+--                     Have to explicitly type the empty list otherwise its a compile error.
+--                     see http://stackoverflow.com/questions/5410919/hunit-testcase-with-a-type-error
+                       "myFlatten (List [])" ~: myFlatten (List []) ~?= ([] :: [Int]),
                        "myFlatten complex" ~: myFlatten (List [Elem 1, List [Elem 2, List [Elem 3, Elem 4], Elem 5]]) ~?= [1,2,3,4,5]]
+
+--
+-- Problem 8
+--
+
+compress :: Eq a => [a] -> [a]
+
+compress [] = []
+compress (x:[]) = [x]
+compress (x:y:xs) = if x == y then compress (y:xs) else x : compress (y:xs)
+compressTest = test [ "compress string" ~: compress "aaaabccaadeeee" ~?= "abcade",
+                      "compress ints" ~: compress [1,2,2,3,3,3,4,4,4,4] ~?= [1,2,3,4],
+--                    Have to explicitly type the empty list otherwise its a compile error.
+--                    see http://stackoverflow.com/questions/5410919/hunit-testcase-with-a-type-error
+                      "compress null" ~: compress [] ~?= ([] :: [Int]) ]
+
+--
+-- Problem 9
+--
+
+pack :: Eq a => [a] -> [[a]]
+
+pack [] = [[]]
+pack (x:xs) = packem x [x] xs
+  where
+    packem c list [] = [list]
+    packem c list (y:ys) = if y == c
+      then packem c (c : list) ys
+      else [list] ++ packem y [y] ys
+packTest = test [ "pack string" ~: pack "aaaabccaadeeee" ~?= ["aaaa","b","cc","aa","d","eeee"],
+--                Have to explicitly type the empty list otherwise its a compile error.
+--                see http://stackoverflow.com/questions/5410919/hunit-testcase-with-a-type-error
+                  "pack null" ~: pack [] ~?= ([[]] :: [[Char]]) ]
+
+--
+-- Problem 10
+--
+
+encode :: [Char] -> [(Int, Char)]
+
+encode [] = []
+encode xs = [(length x, head x) | x <- (pack xs)]
+encodeTest = test [ "encode string" ~: encode "aaaabccaadeeee" ~?= [(4,'a'),(1,'b'),(2,'c'),(2,'a'),(1,'d'),(4,'e')],
+                    "encode null" ~: encode [] ~?= [] ]
