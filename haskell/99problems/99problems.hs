@@ -125,3 +125,19 @@ encode [] = []
 encode xs = [(length x, head x) | x <- (pack xs)]
 encodeTest = test [ "encode string" ~: encode "aaaabccaadeeee" ~?= [(4,'a'),(1,'b'),(2,'c'),(2,'a'),(1,'d'),(4,'e')],
                     "encode null" ~: encode [] ~?= [] ]
+
+--
+-- Problem 11
+--
+
+data Encoded = Multiple Int Char | Single Char deriving (Show, Eq)
+encodeModified :: [Char] -> [Encoded]
+
+encodeModified [] = []
+encodeModified xs = [ construct x | x <- (pack xs) ]
+  where
+    construct (x:[]) = Single x
+    construct xs = Multiple (length xs) (head xs)
+encodeModifiedTest = test [ "encodeModified string" ~: encodeModified "aaaabccaadeeee" ~?=
+                                ([Multiple 4 'a',Single 'b', Multiple 2 'c', Multiple 2 'a', Single 'd',Multiple 4 'e']),
+                            "encodeModified null" ~: encodeModified "" ~?= [] ]
