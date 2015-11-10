@@ -141,3 +141,31 @@ encodeModified xs = [ construct x | x <- (pack xs) ]
 encodeModifiedTest = test [ "encodeModified string" ~: encodeModified "aaaabccaadeeee" ~?=
                                 ([Multiple 4 'a',Single 'b', Multiple 2 'c', Multiple 2 'a', Single 'd',Multiple 4 'e']),
                             "encodeModified null" ~: encodeModified "" ~?= [] ]
+
+--
+-- Problem 12
+--
+
+decodeModified :: [Encoded] -> [Char]
+
+decodeModified [] = []
+decodeModified (Single char : xs) = char : (decodeModified xs)
+decodeModified (Multiple count char : xs) = (replicate count char) ++ decodeModified xs
+decodeModifiedTest = test [ "decodeModified string" ~: decodeModified [Multiple 4 'a',Single 'b', Multiple 2 'c',
+                                                                       Multiple 2 'a', Single 'd',Multiple 4 'e'] ~?= "aaaabccaadeeee",
+                            "decodeModified null" ~: decodeModified [] ~?= "" ]
+
+--
+-- Problem 13
+--
+
+encodeDirect :: [Char] -> [Encoded]
+
+encodeDirect [] = []
+encodeDirect (x:xs) =
+  let these = takeWhile (==x) xs
+      count = length these + 1
+  in (if count > 1 then Multiple count x else Single x) : encodeDirect (dropWhile (==x) xs)
+encodeDirectTest = test [ "encodeDirect string" ~: encodeDirect "aaaabccaadeeee" ~?=
+                                ([Multiple 4 'a',Single 'b', Multiple 2 'c', Multiple 2 'a', Single 'd',Multiple 4 'e']),
+                            "encodeDirect null" ~: encodeDirect "" ~?= [] ]
