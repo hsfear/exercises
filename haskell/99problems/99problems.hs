@@ -162,10 +162,12 @@ decodeModifiedTest = test [ "decodeModified string" ~: decodeModified [Multiple 
 encodeDirect :: [Char] -> [Encoded]
 
 encodeDirect [] = []
-encodeDirect (x:xs) =
-  let these = takeWhile (==x) xs
-      count = length these + 1
-  in (if count > 1 then Multiple count x else Single x) : encodeDirect (dropWhile (==x) xs)
+encodeDirect (x:[]) = [Single x]
+encodeDirect (x:xs) = construct (x : takeWhile (==x) xs) : encodeDirect (dropWhile (==x) xs)
+  where 
+    construct chars | length chars > 1 = Multiple (length chars) (head chars)
+    construct chars = Single (head chars)
+
 encodeDirectTest = test [ "encodeDirect string" ~: encodeDirect "aaaabccaadeeee" ~?=
                                 ([Multiple 4 'a',Single 'b', Multiple 2 'c', Multiple 2 'a', Single 'd',Multiple 4 'e']),
                             "encodeDirect null" ~: encodeDirect "" ~?= [] ]
