@@ -259,3 +259,13 @@ rotateTest = test [ "rotate string" ~: rotate "abcdefghijk" 3 ~?= "defghijkabc",
                     "rotate none" ~: rotate [1,2,3] 0 ~?= [1,2,3],
                     "rotate negative" ~: rotate "abcdefgh" (-2) ~?= "ghabcdef",
                     "rotate null" ~: rotate "" 5 ~?= [] ]
+
+--
+-- Problem 20
+--
+
+removeAt :: Int -> [a] -> (a,[a])
+removeAt 1 (x:xs) = (x, xs)
+removeAt n (x:xs) = let (y, ys) = removeAt (n - 1) xs in (y, x : ys)
+
+removeAtTest = test [ "removeAt string" ~: removeAt 2 "abcdefghijk" ~?= ('b', "acdefghijk") ]
