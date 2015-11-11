@@ -251,7 +251,7 @@ sliceTest = test [ "slice string" ~: slice "abcdefghijk" 3 7 ~?= "cdefg",
 rotate :: [a] -> Int -> [a]
 rotate [] _ = []
 rotate xs 0 = xs
-rotate xs n | n < 0 = rotate xs ((n `mod` (length xs)) + (length xs))
+rotate xs n | n < 0 = rotate xs (n + (length xs))
 rotate (x:xs) n = rotate (xs ++ [x]) (n - 1)
 
 rotateTest = test [ "rotate string" ~: rotate "abcdefghijk" 3 ~?= "defghijkabc",
