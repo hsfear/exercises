@@ -198,3 +198,20 @@ repli (x:xs) count = [x | n <- [1..count]] ++ (repli xs count)
 repliTest = test [ "repli string" ~: repli "abccd" 3 ~?= "aaabbbccccccddd",
                    "repli ints" ~: repli [1,2,3] 2 ~?= [1,1,2,2,3,3],
                    "repli null" ~: repli "" 5 ~?= [] ]
+
+--
+-- Problem 16
+--
+
+dropEvery :: [a] -> Int -> [a]
+
+dropEvery [] _ = []
+dropEvery xs 0 = xs
+dropEvery xs 1 = []
+dropEvery (xs) count = take (count - 1) xs ++ dropEvery (drop count xs) count
+
+dropEveryTest = test [ "dropEvery string" ~: dropEvery "abcdefghij" 3 ~?= "abdeghj",
+                       "dropEvery ints" ~: dropEvery [1,2,3] 2 ~?= [1,3],
+                       "dropEvery all" ~: dropEvery [1,2,3] 1 ~?= [],
+                       "dropEvery none" ~: dropEvery [1,2,3] 0 ~?= [1,2,3],
+                       "dropEvery null" ~: dropEvery "" 5 ~?= [] ]
