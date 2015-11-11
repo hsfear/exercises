@@ -243,3 +243,19 @@ sliceTest = test [ "slice string" ~: slice "abcdefghijk" 3 7 ~?= "cdefg",
                    "slice all" ~: slice [1,2,3] 1 3 ~?= [1,2,3],
                    "slice none" ~: slice [1,2,3] 4 8 ~?= [],
                    "slice null" ~: slice "" 5 10 ~?= [] ]
+
+--
+-- Problem 19
+--
+
+rotate :: [a] -> Int -> [a]
+rotate [] _ = []
+rotate xs 0 = xs
+rotate xs n | n < 0 = rotate xs ((n `mod` (length xs)) + (length xs))
+rotate (x:xs) n = rotate (xs ++ [x]) (n - 1)
+
+rotateTest = test [ "rotate string" ~: rotate "abcdefghijk" 3 ~?= "defghijkabc",
+                    "rotate all" ~: rotate [1,2,3] 3 ~?= [1,2,3],
+                    "rotate none" ~: rotate [1,2,3] 0 ~?= [1,2,3],
+                    "rotate negative" ~: rotate "abcdefgh" (-2) ~?= "ghabcdef",
+                    "rotate null" ~: rotate "" 5 ~?= [] ]
