@@ -215,3 +215,31 @@ dropEveryTest = test [ "dropEvery string" ~: dropEvery "abcdefghij" 3 ~?= "abdeg
                        "dropEvery all" ~: dropEvery [1,2,3] 1 ~?= [],
                        "dropEvery none" ~: dropEvery [1,2,3] 0 ~?= [1,2,3],
                        "dropEvery null" ~: dropEvery "" 5 ~?= [] ]
+
+--
+-- Problem 17
+--
+
+split :: [a] -> Int -> ([a],[a])
+split (xs) count = (take count xs, drop count xs)
+
+splitTest = test [ "split string" ~: split "abcdefghijk" 3 ~?= ("abc", "defghijk"),
+                   "split ints" ~: split [1,2,3] 2 ~?= ([1,2], [3]),
+                   "split all" ~: split [1,2,3] 3 ~?= ([1,2,3],[]),
+                   "split none" ~: split [1,2,3] 0 ~?= ([], [1,2,3]),
+                   "split null" ~: split "" 5 ~?= ([],[]) ]
+
+--
+-- Problem 18
+--
+
+slice :: [a] -> Int -> Int -> [a]
+slice [] _ _ = []
+slice (x:xs) 1 1 = [x]
+slice (x:xs) 1 end = x : slice xs 1 (end - 1)
+slice (x:xs) start end = slice xs (start -1) (end - 1)
+
+sliceTest = test [ "slice string" ~: slice "abcdefghijk" 3 7 ~?= "cdefg",
+                   "slice all" ~: slice [1,2,3] 1 3 ~?= [1,2,3],
+                   "slice none" ~: slice [1,2,3] 4 8 ~?= [],
+                   "slice null" ~: slice "" 5 10 ~?= [] ]
