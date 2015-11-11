@@ -131,13 +131,13 @@ encodeTest = test [ "encode string" ~: encode "aaaabccaadeeee" ~?= [(4,'a'),(1,'
 --
 
 data Encoded = Multiple Int Char | Single Char deriving (Show, Eq)
+
 encodeModified :: [Char] -> [Encoded]
+constructEncoded 1 c = Single c
+constructEncoded n c = Multiple n c
 
 encodeModified [] = []
-encodeModified xs = [ construct x | x <- (pack xs) ]
-  where
-    construct (x:[]) = Single x
-    construct xs = Multiple (length xs) (head xs)
+encodeModified xs = [ constructEncoded (length x) (head x) | x <- (pack xs) ]
 encodeModifiedTest = test [ "encodeModified string" ~: encodeModified "aaaabccaadeeee" ~?=
                                 ([Multiple 4 'a',Single 'b', Multiple 2 'c', Multiple 2 'a', Single 'd',Multiple 4 'e']),
                             "encodeModified null" ~: encodeModified "" ~?= [] ]
@@ -162,12 +162,39 @@ decodeModifiedTest = test [ "decodeModified string" ~: decodeModified [Multiple 
 encodeDirect :: [Char] -> [Encoded]
 
 encodeDirect [] = []
-encodeDirect (x:[]) = [Single x]
-encodeDirect (x:xs) = construct (x : takeWhile (==x) xs) : encodeDirect (dropWhile (==x) xs)
-  where 
-    construct chars | length chars > 1 = Multiple (length chars) (head chars)
-    construct chars = Single (head chars)
+encodeDirect (x:xs) = encodeDirect' x 1 xs
+  where
+    encodeDirect' c n [] = constructEncoded n c : []
+    encodeDirect' c n (y:ys) | c == y = encodeDirect' c (n + 1) ys
+    encodeDirect' c n (y:ys) = constructEncoded n c : encodeDirect' y 1 ys
 
 encodeDirectTest = test [ "encodeDirect string" ~: encodeDirect "aaaabccaadeeee" ~?=
                                 ([Multiple 4 'a',Single 'b', Multiple 2 'c', Multiple 2 'a', Single 'd',Multiple 4 'e']),
                             "encodeDirect null" ~: encodeDirect "" ~?= [] ]
+
+--
+-- Problem 14
+--
+
+dupli :: [a] -> [a]
+
+dupli [] = []
+dupli (x:xs) = x : x : dupli(xs)
+
+dupliTest = test [ "dupli string" ~: dupli "abccd" ~?= "aabbccccdd",
+                   "dupli ints" ~: dupli [1,2,3] ~?= [1,1,2,2,3,3],
+                   "dupli null" ~: dupli "" ~?= [] ]
+
+--
+-- Problem 15
+--
+
+repli :: [a] -> Int -> [a]
+
+repli [] _ = []
+repli _ 0 = []
+repli (x:xs) count = [x | n <- [1..count]] ++ (repli xs count)
+
+repliTest = test [ "repli string" ~: repli "abccd" 3 ~?= "aaabbbccccccddd",
+                   "repli ints" ~: repli [1,2,3] 2 ~?= [1,1,2,2,3,3],
+                   "repli null" ~: repli "" 5 ~?= [] ]
