@@ -2,6 +2,7 @@ module Main where
 import Control.Monad
 import System.Environment
 import Text.ParserCombinators.Parsec hiding (spaces)
+import Numeric
 
 data LispVal = Atom String
              | List [LispVal]
@@ -25,9 +26,18 @@ readExpr input = case parse parseExpr "lisp" input of
 spaces :: Parser ()
 spaces = skipMany1 space
 
+parseEscape :: Parser Char
+parseEscape = do char '\\'
+                 c <- anyChar
+                 return $ case c of
+                            'n' -> '\n'
+                            'r' -> '\r'
+                            't' -> '\t'
+                            otherwise -> c
+
 parseString :: Parser LispVal
 parseString = do char '"'
-                 x <- many (noneOf "\"")
+                 x <- many (parseEscape <|> (noneOf "\""))
                  char '"'
                  return $ String x
 
@@ -42,9 +52,27 @@ parseAtom = do first <- letter <|> symbol
 
 parseNumber :: Parser LispVal
 -- parseNumber = liftM (Number . read) $ many1 digit
--- parseNumber = do digits <- many1 digit
---                  return $ (Number . read) digits
-parseNumber = (many1 digit) >>= \digits -> return $ (Number . read) digits
+parseNumber = do digits <- many1 digit
+                 base <- option Dec parseBase
+                 return $ Number (readValue base digits)
+-- parseNumber = (many1 digit) >>= \digits -> return $ (Number . read) digits
+
+readValue :: (Eq a, Num a) => Base -> String -> a
+readValue base digits =
+    val where
+          reader = case base of
+                          Dec -> readDec 
+                          Oct -> readOct
+                          Hex -> readHex
+          (val,_):_ = reader digits
+
+data Base = Oct | Hex | Dec
+parseBase :: Parser Base
+parseBase = do char '#'
+               base <- (char 'o' <|> char 'x')
+               return $ case base of
+                          'o' -> Oct
+                          'x' -> Hex
 
 parseExpr :: Parser LispVal
 parseExpr = parseAtom
