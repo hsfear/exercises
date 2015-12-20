@@ -1,1 +1,1 @@
--record(record, { name, start_date, start_time, end_date, end_time }).
+-record(record, { phone_number, start_date, start_time, end_date, end_time }).

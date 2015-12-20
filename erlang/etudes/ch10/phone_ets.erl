@@ -5,7 +5,7 @@
 setup() ->
     case ets:info(phone_records) of
         undefined ->
-            ets:new(phone_records, [named_table, bag, {keypos, #record.name}]),
+            ets:new(phone_records, [named_table, bag, {keypos, #record.phone_number}]),
             case file:open("call_data.csv", [read]) of
                 { error, Reason } -> erlang:error(Reason);
                 { ok, InputFile } ->
@@ -41,8 +41,8 @@ get_records(File, Records) ->
     end.
 
 to_record(Line) ->
-    [Name,StartDate,StartTime,EndDate,EndTime|_] = re:split(Line, ",", [{return, list}]),
-    #record{name=Name, start_date=StartDate, start_time=StartTime, end_date=EndDate, end_time=EndTime}.
+    [Number,StartDate,StartTime,EndDate,EndTime|_] = re:split(Line, ",", [{return, list}]),
+    #record{phone_number=Number, start_date=StartDate, start_time=StartTime, end_date=EndDate, end_time=EndTime}.
 
 to_int(String) ->
     case string:to_integer(String) of
