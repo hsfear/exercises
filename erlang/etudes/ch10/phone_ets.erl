@@ -6,7 +6,7 @@ setup() ->
     case ets:info(phone_records) of
         undefined ->
             ets:new(phone_records, [named_table, bag, {keypos, #record.name}]),
-            case file:open("smallfile.csv", [read]) of
+            case file:open("call_data.csv", [read]) of
                 { error, Reason } -> erlang:error(Reason);
                 { ok, InputFile } ->
                     lists:foreach(fun(Record) -> ets:insert(phone_records, Record) end, get_records(InputFile)),
