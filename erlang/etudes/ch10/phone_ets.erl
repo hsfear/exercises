@@ -1,5 +1,5 @@
 -module(phone_ets).
--export([setup/0]).
+-export([setup/0,summary/1,summary/0]).
 -include("phone_records.hrl").
 
 setup() ->
@@ -16,6 +16,23 @@ setup() ->
         _ -> ok
     end.
 
+do_record('$end_of_table') -> [];
+do_record(Key) ->
+    [summary(Key) | do_record(ets:next(phone_records, Key))].
+
+summary() -> do_record(ets:first(phone_records)).
+
+summary(Number) -> [Number, lists:foldl(fun(Record, Time) -> Time + call_time(Record) end, 0, ets:lookup(phone_records, Number))].
+
+call_time(Record) ->
+    (date_time_to_seconds(Record#record.end_date, Record#record.end_time)
+        - date_time_to_seconds(Record#record.start_date, Record#record.start_time)).
+
+date_time_to_seconds(Date, Time) ->
+    [Yr, Mo, Da] = re:split(Date, "-", [{return, list}]),
+    [Hr, Mt, Se] = re:split(Time, ":", [{return, list}]),
+    calendar:datetime_to_gregorian_seconds({{to_int(Yr), to_int(Mo), to_int(Da)}, {to_int(Hr), to_int(Mt), (to_int(Se) + 59) div 60}}).
+
 get_records(File) -> get_records(File, []).
 get_records(File, Records) ->
     case read_line(File) of
@@ -26,6 +43,12 @@ get_records(File, Records) ->
 to_record(Line) ->
     [Name,StartDate,StartTime,EndDate,EndTime|_] = re:split(Line, ",", [{return, list}]),
     #record{name=Name, start_date=StartDate, start_time=StartTime, end_date=EndDate, end_time=EndTime}.
+
+to_int(String) ->
+    case string:to_integer(String) of
+        {error, _} -> error;
+        {Int, _} -> Int
+    end.
 
 read_line(File) -> read_line(File, "").
 read_line(File,Prompt) ->
