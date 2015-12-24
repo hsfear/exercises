@@ -25,13 +25,13 @@ summary() -> do_record(ets:first(phone_records)).
 summary(Number) -> [Number, lists:foldl(fun(Record, Time) -> Time + call_time(Record) end, 0, ets:lookup(phone_records, Number))].
 
 call_time(Record) ->
-    (date_time_to_seconds(Record#record.end_date, Record#record.end_time)
-        - date_time_to_seconds(Record#record.start_date, Record#record.start_time)).
+    ((date_time_to_seconds(Record#record.end_date, Record#record.end_time)
+        - date_time_to_seconds(Record#record.start_date, Record#record.start_time)) + 59) div 60.
 
 date_time_to_seconds(Date, Time) ->
     [Yr, Mo, Da] = re:split(Date, "-", [{return, list}]),
     [Hr, Mt, Se] = re:split(Time, ":", [{return, list}]),
-    calendar:datetime_to_gregorian_seconds({{to_int(Yr), to_int(Mo), to_int(Da)}, {to_int(Hr), to_int(Mt), (to_int(Se) + 59) div 60}}).
+    calendar:datetime_to_gregorian_seconds({{to_int(Yr), to_int(Mo), to_int(Da)}, {to_int(Hr), to_int(Mt), to_int(Se)}}).
 
 get_records(File) -> get_records(File, []).
 get_records(File, Records) ->
