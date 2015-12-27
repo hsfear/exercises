@@ -7,9 +7,13 @@
          handle_info/2,
          terminate/2,
          code_change/3]). % gen_server calls
+-export([report/1, recent/0, test/1]).
 -define(SERVER, ?MODULE). % macro that just defines this module as server
 -record(state, {recent}). % simple counter state
 -include_lib("xmerl/include/xmerl.hrl").
+
+report(Station) -> gen_server:call(?SERVER, Station).
+recent() -> gen_server:cast(?SERVER, "").
 
 %%% convenience method for startup
 start_link() ->
