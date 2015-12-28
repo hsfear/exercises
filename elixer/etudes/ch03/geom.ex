@@ -8,4 +8,7 @@ defmodule Geom do
     def area(:ellipse, major, minor) when major >= 0 and major >= 0 do
         :math.pi() * major * minor
     end
+    def area(_, _, _) do
+        0
+    end
 end
