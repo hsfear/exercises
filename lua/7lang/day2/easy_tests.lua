@@ -1,0 +1,12 @@
+require 'busted.runner'()
+require 'easy'
+describe("concetenate", function()
+  it("concatenates 2 arrays", function()
+      local result = concatenate({"1", "2"}, {"3", "4"})
+      assert.is_equals(4, #result)
+      assert.is_equals("1", result[1])
+      assert.is_equals("2", result[2])
+      assert.is_equals("3", result[3])
+      assert.is_equals("4", result[4])
+  end)
+end)
