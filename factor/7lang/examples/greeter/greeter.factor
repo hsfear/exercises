@@ -1,4 +1,4 @@
 USING: kernel sequences ;
-IN: day1.examples.greeter
+IN: examples.greeter
 
 : greeting ( name -- greeting ) "Hello, " swap append ;

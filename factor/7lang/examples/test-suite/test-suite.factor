@@ -1,7 +1,7 @@
 USING: tools.test io io.streams.null kernel namespaces sequences ;
 
-USE: day1.examples.greeter
-IN: day1.examples.test-suite
+USE: examples.greeter
+IN: examples.test-suite
 
 : test-all-examples ( -- )
     [ "examples" test ] with-null-writer

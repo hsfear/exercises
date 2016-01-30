@@ -1,6 +1,6 @@
 USE: io
-USE: day1.examples.greeter
-IN: day1.examples.hello
+USE: examples.greeter
+IN: examples.hello
 
 : hello-world ( -- ) "world" greeting print ;
 
