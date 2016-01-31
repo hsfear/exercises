@@ -1,6 +1,5 @@
-USING: tools.test io io.streams.null kernel namespaces sequences ;
+USING: day2.strings day2.sequences tools.test io io.streams.null kernel namespaces sequences ;
 
-USE: day2.strings
 IN: day2.test-suite
 
 : test-all-day2 ( -- )
