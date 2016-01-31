@@ -67,3 +67,5 @@ unit-test
 2.00 <simple-cart-item>
 ! END:partial_boa
 ] unit-test
+
+{ .75 } [ T{ cart-item f "Test" 1.00 1 } .25 discount price>> ] unit-test

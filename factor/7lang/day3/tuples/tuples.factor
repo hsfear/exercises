@@ -1,5 +1,5 @@
 ! START:definition
-USE: kernel
+USING: kernel math accessors ;
 
 IN: day3.tuples
 
@@ -17,3 +17,5 @@ TUPLE: cart-item name price quantity ;
 ! START:partial_boa
 : <simple-cart-item> ( price -- cart-item ) "Default" swap 1 cart-item boa ;
 ! END:partial_boa
+
+: discount ( cart-item pct -- cart-item ) [ dup price>> ] dip 1 swap - * >>price ;
