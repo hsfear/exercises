@@ -18,4 +18,7 @@ TUPLE: cart-item name price quantity ;
 : <simple-cart-item> ( price -- cart-item ) "Default" swap 1 cart-item boa ;
 ! END:partial_boa
 
-: discount ( cart-item pct -- cart-item ) [ dup price>> ] dip 1 swap - * >>price ;
+: discount ( cart-item discount -- cart-item )
+    1 swap - ! convert discount into something we can multiply 
+    [ * ] curry ! curry it to create a callable
+    change-price ;
