@@ -7,7 +7,7 @@ IN: day2.test-suite
 
 : test-all-day2 ( -- )
     [ "day2" test ] with-string-writer
-    R/ Unit Test: / count-matches
+    R/ ^Unit Test:/m count-matches
     number>string "Unit Tests: " swap append print
     test-failures get empty?
     [ "All tests passed." print ] [ :test-failures ] if ;
