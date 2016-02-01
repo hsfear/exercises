@@ -17,7 +17,7 @@ IN: day3.checkout.tests
 unit-test
 
 ! START:sample_test
-{ T{ checkout f 3 60.97 9.130257500000001 4.49 74.59025750000001 } }
+{ T{ checkout f 3 60.97 9.13 4.49 74.59 } }
 [ <sample-cart> <checkout> sample-checkout ]
 unit-test
 ! END:sample_test

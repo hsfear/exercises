@@ -1,6 +1,4 @@
-USING: kernel accessors locals
-  math math.order math.functions math.parser
-  sequences sequences.repeating ;
+USING: kernel accessors locals math math.order math.functions math.parser sequences sequences.repeating formatting ;
 
 IN: day3.checkout
 
@@ -11,11 +9,13 @@ TUPLE: checkout item-count base-price taxes shipping total-price ;
 
 : <cart-item> ( name price quantity -- cart-item ) cart-item boa ;
 
+: to-currency ( n -- n ) "%.2f" sprintf string>number ;
+
 ! START:utils
 : sum ( seq -- n ) 0 [ + ] reduce ; ! (1)
 : cart-item-count ( cart -- count ) [ quantity>> ] map sum ; ! (2)
-: cart-item-price ( cart-item -- price ) [ price>> ] [ quantity>> ] bi * ; !  (3)
-: cart-base-price ( cart -- price ) [ cart-item-price ] map sum ; ! (4)
+: cart-item-price ( cart-item -- price ) [ price>> ] [ quantity>> ] bi * to-currency ; !  (3)
+: cart-base-price ( cart -- price ) [ cart-item-price ] map sum to-currency ; ! (4)
 ! END:utils
 
 ! START:cart_checkout
@@ -31,12 +31,12 @@ CONSTANT: gst-rate 0.05
 CONSTANT: pst-rate 0.09975
 CONSTANT: sales-tax-rate 0.10
 
-: gst-pst ( price -- taxes ) [ gst-rate * ] [ pst-rate * ] bi + ;
-: sales-tax ( price -- taxes ) sales-tax-rate * ;
+: gst-pst ( price -- taxes ) [ gst-rate * ] [ pst-rate * ] bi + to-currency ;
+: sales-tax ( price -- taxes ) sales-tax-rate * to-currency ;
 
 : taxes ( checkout taxes-calc -- taxes )
     [ dup base-price>> ] dip
-    call >>taxes ; inline
+    call to-currency >>taxes ; inline
 ! END:taxes
 
 ! START:shipping
@@ -44,17 +44,17 @@ CONSTANT: base-shipping 1.49
 CONSTANT: per-item-shipping 1.00
 CONSTANT: per-item-us-shipping 2.00
 
-: per-item ( checkout -- shipping ) per-item-shipping * base-shipping + ;
-: per-us-item ( checkout -- shipping ) per-item-us-shipping * base-shipping + ;
+: per-item ( checkout -- shipping ) per-item-shipping * base-shipping + to-currency ;
+: per-us-item ( checkout -- shipping ) per-item-us-shipping * base-shipping + to-currency ;
 
 : shipping ( checkout shipping-calc -- shipping )
     [ dup item-count>> ] dip
-    call >>shipping ; inline
+    call to-currency >>shipping ; inline
 ! END:shipping
 
 ! START:total
 : total ( checkout -- total-price ) dup
-    [ base-price>> ] [ taxes>> ] [ shipping>> ] tri + + >>total-price ;
+    [ base-price>> ] [ taxes>> ] [ shipping>> ] tri + + to-currency >>total-price ;
 ! END:total
 
 ! START:sample_checkout
