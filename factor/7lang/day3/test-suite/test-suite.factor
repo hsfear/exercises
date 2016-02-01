@@ -1,6 +1,7 @@
 USING: tools.test io io.streams.null kernel namespaces sequences regexp io.streams.string math.parser ;
 
-USE: day3.tuples
+! USE: day3.tuples
+USE: day3.checkout
 IN: day3.test-suite
 
 : test-all-day3 ( -- )
