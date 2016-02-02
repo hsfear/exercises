@@ -13,5 +13,8 @@ all =
         [
             test "Sum elements" (assertEqual (Day1.sum [1,2,3]) 6),
             test "record accessors " (assertEqual (Day1.xs [{x = 1, y=2}, {x =3, y=4}]) [1,3]),
-            test "Point accessors " (assertEqual (Day1.point_xs [{x = 1, y=2}, {x =3, y=4}]) [1,3])
+            test "Point accessors " (assertEqual (Day1.point_xs [{x = 1, y=2}, {x =3, y=4}]) [1,3]),
+            test "multiply " (assertEqual (Day1.multiply 6 8) 48),
+            test "drivers " (assertEqual (Day1.drivers [{name = "Mom", age=33, address="test"},{name = "Dad", age=38, address="test"},{name = "Kid", age=6, address="test"} ])
+                [{name = "Mom", age=33, address="test"},{name = "Dad", age=38, address="test"}])
         ]
