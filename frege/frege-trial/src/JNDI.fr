@@ -1,0 +1,8 @@
+module JNDI where
+
+type HostName = String
+
+data PortNumber = Word16
+data PortID = PortNumber PortNumber
+
+data Host = Host HostName PortID 
