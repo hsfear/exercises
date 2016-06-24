@@ -1,0 +1,164 @@
+<session>
+  <testrun stamp="1466780708557" start="1466780708557">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466781166556" start="1466781166556">
+    <fail name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466781289548" start="1466781289548">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466781315976" start="1466781315976">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466781342284" start="1466781342284">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466781366167" start="1466781366167">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466781611432" start="1466781611432">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466781705481" start="1466781705481">
+    <fail name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466781752505" start="1466781752505">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466781917157" start="1466781917157">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466781952840" start="1466781952840">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466782011080" start="1466782011080">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466782031178" start="1466782031178">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466782201355" start="1466782201355">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783081317" start="1466783081317">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783109667" start="1466783109667">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783237367" start="1466783237367">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783303222" start="1466783303222">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783369649" start="1466783369649">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783418470" start="1466783418470">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783446718" start="1466783446718">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783501383" start="1466783501383">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783720461" start="1466783720461">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783758084" start="1466783758084">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466783964709" start="1466783964709">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466784173690" start="1466784173690">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466784842699" start="1466784842699">
+    <fail name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466784893538" start="1466784893538">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785013535" start="1466785013535">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785159708" start="1466785159708">
+    <fail name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785432632" start="1466785432632">
+    <fail name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785611043" start="1466785611043">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785750802" start="1466785750802">
+    <fail name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785774720" start="1466785774720">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785788059" start="1466785788059">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785823479" start="1466785823479">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785835357" start="1466785835357">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785890724" start="1466785890724">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466785987971" start="1466785987971">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466786027048" start="1466786027048">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466786229838" start="1466786229838">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466786296965" start="1466786296965">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466786319111" start="1466786319111">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466786351316" start="1466786351316">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466786417052" start="1466786417052">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466786679662" start="1466786679662">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466786899283" start="1466786899283">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466786937411" start="1466786937411">
+    <fail name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466787218841" start="1466787218841">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466787258393" start="1466787258393">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466787929983" start="1466787929983">
+    <fail name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466787963184" start="1466787963184">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466788209911" start="1466788209911">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+  <testrun stamp="1466788390426" start="1466788390426">
+    <pass name="gildedRose(com.gildedrose.GildedRoseTest)" />
+  </testrun>
+</session>

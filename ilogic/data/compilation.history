@@ -1,0 +1,2457 @@
+<session>
+  <edit resource="test/com/gildedrose/GildedRoseTest.java" stamp="1466780577654">
+    <error lineNumber="15" message="Cannot resolve symbol 'java'" />
+    <error lineNumber="16" message="Cannot resolve symbol 'java'" />
+    <error lineNumber="21" message="Cannot resolve symbol 'String'" />
+    <error lineNumber="47" message="'@Test' not applicable to method" />
+    <error lineNumber="49" message="Cannot resolve symbol 'ByteArrayOutputStream'" />
+    <error lineNumber="49" message="Cannot resolve symbol 'ByteArrayOutputStream'" />
+    <error lineNumber="50" message="Cannot resolve symbol 'PrintStream'" />
+    <error lineNumber="50" message="Cannot resolve symbol 'PrintStream'" />
+    <error lineNumber="52" message="Cannot resolve method 'println(java.lang.String)'" />
+    <error lineNumber="71" message="Cannot resolve method 'println(java.lang.String)'" />
+    <error lineNumber="72" message="Cannot resolve method 'println(java.lang.String)'" />
+    <error lineNumber="74" message="Cannot resolve method 'println(com.gildedrose.Item)'" />
+    <error lineNumber="76" message="Cannot resolve method 'println()'" />
+    <error lineNumber="80" message="Cannot resolve symbol 'System'" />
+    <error lineNumber="80" message="Cannot resolve method 'toString()'" />
+    <error lineNumber="81" message="Cannot resolve method 'toString()'" />
+  </edit>
+  <edit resource="test/com/gildedrose/GildedRoseTest.java" stamp="1466780586670" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466780606294" />
+  <edit resource="src/com/gildedrose/Item.java" stamp="1466780607109" />
+  <edit resource="GildedRoseRequirements.txt" stamp="1466780614459" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781009443">
+    <error lineNumber="10" message="';' expected" />
+    <error lineNumber="10" message="';' expected" />
+    <error lineNumber="11" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="12" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="13" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="14" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781012205">
+    <error lineNumber="11" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="12" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="13" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="14" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781020311">
+    <error lineNumber="12" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="13" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="14" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781025037">
+    <error lineNumber="13" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="14" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781028821">
+    <error lineNumber="14" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781032038">
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781038139">
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781045632">
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781047647">
+    <error lineNumber="22" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781054344">
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781056458">
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781058636">
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781064346">
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781067494">
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781070286">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781078972">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'itemsitem'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781082917">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781089032">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781095422">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781099726">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781102545">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781105820">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781109281">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781111888">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781118887">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781129297">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781134172">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781137653">
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781155230" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781281457">
+    <error lineNumber="11" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="12" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="13" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="14" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781283628" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781302839">
+    <error lineNumber="11" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781303578">
+    <error lineNumber="11" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781305460">
+    <error lineNumber="11" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781306508">
+    <error lineNumber="11" message="';' expected" />
+    <error lineNumber="11" message="Unexpected token" />
+    <error lineNumber="11" message="Unexpected token" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781309794">
+    <error lineNumber="11" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781310383" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781356602">
+    <error lineNumber="10" message="';' expected" />
+    <error lineNumber="10" message="';' expected" />
+    <error lineNumber="11" message="Variable 'item' is already defined in the scope" />
+    <error lineNumber="11" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781357531">
+    <error lineNumber="10" message="Expression expected" />
+    <error lineNumber="11" message="Variable 'item' is already defined in the scope" />
+    <error lineNumber="11" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781359032">
+    <error lineNumber="11" message="Variable 'item' is already defined in the scope" />
+    <error lineNumber="11" message="Cannot resolve symbol 'i'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781361614" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781413874">
+    <error lineNumber="11" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781418280">
+    <error lineNumber="11" message="Incompatible types. Found: 'java.lang.String', required: 'boolean'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781422767">
+    <error lineNumber="11" message="Cannot resolve method 'equals()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781429701" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781437041">
+    <error lineNumber="13" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781451791" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781463278">
+    <error lineNumber="66" message="'}' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781464718" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781465240">
+    <error lineNumber="18" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="21" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="26" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="37" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="49" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="50" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="52" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="53" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="58" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="58" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="58" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="61" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="62" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="62" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="68" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781466631" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781545279">
+    <error lineNumber="73" message="'}' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781546121">
+    <error lineNumber="74" message="'}' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781547744" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781576756">
+    <error lineNumber="32" message="'else' without 'if'" />
+    <error lineNumber="33" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="34" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="35" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="35" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="48" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="48" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="50" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="52" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="53" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="53" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="57" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="58" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="59" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="59" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="66" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="67" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="67" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="70" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="71" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="72" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="73" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="74" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="75" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="75" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="79" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="79" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="79" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="82" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="83" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="83" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="89" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781579531" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781640873">
+    <error lineNumber="30" message="'else' without 'if'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="33" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="33" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="61" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781644061" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781648829">
+    <error lineNumber="28" message="'else' without 'if'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="37" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="37" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="49" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="49" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="49" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="52" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="53" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="53" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="59" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781657758" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781740044">
+    <error lineNumber="28" message="'else' without 'if'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="37" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="37" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="49" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="49" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="49" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="52" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="53" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="53" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="59" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781740928" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781878535">
+    <error lineNumber="31" message="'else' without 'if'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="33" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="34" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="34" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="48" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="48" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="52" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="52" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="52" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="55" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="56" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="56" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="62" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781881401" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781889679">
+    <error lineNumber="29" message="'else' without 'if'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="37" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="50" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="50" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="50" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="53" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="54" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="60" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781892445" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781926816">
+    <error lineNumber="26" message="'else' without 'if'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="34" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="35" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="35" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="47" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="50" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="51" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="57" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781931090" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781936578">
+    <error lineNumber="24" message="'else' without 'if'" />
+    <error lineNumber="25" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="26" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="33" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="33" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="37" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="48" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="49" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="49" message="Cannot resolve symbol 'item'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781940586" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781979807">
+    <error lineNumber="18" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781981177">
+    <error lineNumber="18" message="')' expected" />
+    <error lineNumber="18" message="'&gt;' or ',' expected" />
+    <error lineNumber="18" message="Identifier expected" />
+    <error lineNumber="18" message="Identifier expected" />
+    <error lineNumber="18" message="';' expected" />
+    <error lineNumber="18" message="Expression expected" />
+    <error lineNumber="18" message="Unexpected token" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781982870">
+    <error lineNumber="18" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466781989777" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782015302">
+    <error lineNumber="15" message="'else' without 'if'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="16" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="17" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="17" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="18" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="18" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="18" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="18" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="19" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="33" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="34" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="35" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="37" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="46" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="52" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782016750">
+    <error lineNumber="14" message="'else' without 'if'" />
+    <error lineNumber="14" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="16" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="16" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="17" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="17" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="17" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="17" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="18" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="18" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="18" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="18" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="21" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="23" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="33" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="34" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="35" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="37" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="37" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="45" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="51" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782020262" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782036547">
+    <error lineNumber="19" message="'else' without 'if'" />
+    <error lineNumber="20" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="21" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="22" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="33" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="34" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="35" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="43" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="44" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="50" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782039722" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782153915">
+    <error lineNumber="17" message="')' expected" />
+    <error lineNumber="18" message="'else' without 'if'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782158807" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782173462">
+    <error lineNumber="25" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="26" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="26" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="33" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="34" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="34" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="38" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="41" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="42" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="48" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782177067" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782182316">
+    <error lineNumber="23" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="24" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="31" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="32" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="36" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="39" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'item'" />
+    <error lineNumber="46" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782185179" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782267796">
+    <error lineNumber="13" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782271394">
+    <error lineNumber="13" message="';' expected" />
+    <error lineNumber="18" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782276328">
+    <error lineNumber="13" message="';' expected" />
+    <error lineNumber="18" message="';' expected" />
+    <error lineNumber="23" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782312572">
+    <error lineNumber="13" message="';' expected" />
+    <error lineNumber="18" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782315673">
+    <error lineNumber="13" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466782322643" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783154516">
+    <error lineNumber="27" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783161297" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783212425">
+    <error lineNumber="46" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783214897">
+    <error lineNumber="45" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783219844">
+    <error lineNumber="44" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783231727" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783333821">
+    <error lineNumber="43" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783335336">
+    <error lineNumber="42" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783338568" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783396980">
+    <error lineNumber="36" message="Cannot resolve symbol 'eli'" />
+    <error lineNumber="36" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783397933">
+    <error lineNumber="36" message="Statement expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783399285" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783424603">
+    <error lineNumber="41" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783432154" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783470731">
+    <error lineNumber="39" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783474346" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783570786">
+    <error lineNumber="16" message="'incrementQuality(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783572527" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783583277">
+    <error lineNumber="17" message="'incrementQuality(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783585039">
+    <error lineNumber="17" message="'incrementQuality(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="17" message="')' expected" />
+    <error lineNumber="17" message="Unexpected token" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783585695">
+    <error lineNumber="17" message="Cannot resolve symbol 'incrementQuality'" />
+    <error lineNumber="17" message="')' expected" />
+    <error lineNumber="17" message="Unexpected token" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783587901">
+    <error lineNumber="17" message="')' expected" />
+    <error lineNumber="17" message="Expression expected" />
+    <error lineNumber="17" message="Unexpected token" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783588797">
+    <error lineNumber="17" message="'incrementQuality(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783589978" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783740583">
+    <error lineNumber="11" message="'(' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783750824" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783891189">
+    <error lineNumber="35" message="'}' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783897476" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783907197">
+    <error lineNumber="28" message="'else' without 'if'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783920344">
+    <error lineNumber="22" message="Statement expected" />
+    <error lineNumber="29" message="'else' without 'if'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783926146">
+    <error lineNumber="29" message="'else' without 'if'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783938940" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783942098">
+    <error lineNumber="32" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783943067">
+    <error lineNumber="31" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466783946992" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784125403">
+    <error lineNumber="23" message="Illegal combination of modifiers: 'private' and 'private'" />
+    <error lineNumber="25" message="Illegal combination of modifiers: 'private' and 'private'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784126909">
+    <error lineNumber="23" message="Identifier expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784128922">
+    <error lineNumber="23" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784133699">
+    <error lineNumber="23" message="'{' or ';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784135822" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784146831">
+    <error lineNumber="21" message="'}' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784147363" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784150229">
+    <error lineNumber="12" message="'processNoop(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784154521" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784207868">
+    <error lineNumber="6" message="Identifier expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784216717">
+    <error lineNumber="7" message="Identifier expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784228836">
+    <error lineNumber="7" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784232195">
+    <error lineNumber="7" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784339971">
+    <error lineNumber="7" message="Cannot resolve symbol 'Collections'" />
+    <error lineNumber="7" message="Cannot resolve symbol 'Stream'" />
+    <error lineNumber="7" message="')' expected" />
+    <error lineNumber="7" message="Expression expected" />
+    <error lineNumber="9" message="')' expected" />
+    <error lineNumber="9" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784347410">
+    <error lineNumber="7" message="Cannot resolve symbol 'Collections'" />
+    <error lineNumber="7" message="Cannot resolve symbol 'Stream'" />
+    <error lineNumber="7" message="')' expected" />
+    <error lineNumber="7" message="Expression expected" />
+    <error lineNumber="10" message="')' expected" />
+    <error lineNumber="10" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784349817">
+    <error lineNumber="8" message="Cannot resolve symbol 'Collections'" />
+    <error lineNumber="8" message="')' expected" />
+    <error lineNumber="8" message="Expression expected" />
+    <error lineNumber="11" message="')' expected" />
+    <error lineNumber="11" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784351190">
+    <error lineNumber="9" message="')' expected" />
+    <error lineNumber="9" message="Expression expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784370032">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="')' expected" />
+    <error lineNumber="10" message="Expression expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784385773">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="')' expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784387660">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="')' expected" />
+    <error lineNumber="10" message="Expression expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784390822">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="Method references are not supported at this language level" />
+    <error lineNumber="10" message="')' expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784397113">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="Method references are not supported at this language level" />
+    <error lineNumber="10" message="')' expected" />
+    <error lineNumber="10" message="Expression expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784404389">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="Method references are not supported at this language level" />
+    <error lineNumber="11" message="Diamond types are not supported at this language level" />
+    <error lineNumber="11" message="Method references are not supported at this language level" />
+    <error lineNumber="11" message="')' expected" />
+    <error lineNumber="11" message="Expression expected" />
+    <error lineNumber="13" message="')' expected" />
+    <error lineNumber="13" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784407048">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="Method references are not supported at this language level" />
+    <error lineNumber="11" message="Diamond types are not supported at this language level" />
+    <error lineNumber="11" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="Diamond types are not supported at this language level" />
+    <error lineNumber="12" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="Expression expected" />
+    <error lineNumber="14" message="')' expected" />
+    <error lineNumber="14" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784423911">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="Method references are not supported at this language level" />
+    <error lineNumber="11" message="Diamond types are not supported at this language level" />
+    <error lineNumber="11" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="Diamond types are not supported at this language level" />
+    <error lineNumber="12" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="14" message="')' expected" />
+    <error lineNumber="14" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784426154">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="Method references are not supported at this language level" />
+    <error lineNumber="11" message="Diamond types are not supported at this language level" />
+    <error lineNumber="11" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="Diamond types are not supported at this language level" />
+    <error lineNumber="12" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="12" message="';' expected" />
+    <error lineNumber="12" message="Unexpected token" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784427083">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="Method references are not supported at this language level" />
+    <error lineNumber="11" message="Diamond types are not supported at this language level" />
+    <error lineNumber="11" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="Diamond types are not supported at this language level" />
+    <error lineNumber="12" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="14" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784440993">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="Method references are not supported at this language level" />
+    <error lineNumber="11" message="Diamond types are not supported at this language level" />
+    <error lineNumber="11" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="Diamond types are not supported at this language level" />
+    <error lineNumber="12" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="')' expected" />
+    <error lineNumber="15" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784441886">
+    <error lineNumber="10" message="Diamond types are not supported at this language level" />
+    <error lineNumber="10" message="Method references are not supported at this language level" />
+    <error lineNumber="11" message="Diamond types are not supported at this language level" />
+    <error lineNumber="11" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="Diamond types are not supported at this language level" />
+    <error lineNumber="12" message="Method references are not supported at this language level" />
+    <error lineNumber="13" message="Cannot resolve symbol 'Collectors'" />
+    <error lineNumber="13" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="13" message="Cannot resolve method 'getValue()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784444417">
+    <error lineNumber="11" message="Diamond types are not supported at this language level" />
+    <error lineNumber="11" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="Diamond types are not supported at this language level" />
+    <error lineNumber="12" message="Method references are not supported at this language level" />
+    <error lineNumber="13" message="Diamond types are not supported at this language level" />
+    <error lineNumber="13" message="Method references are not supported at this language level" />
+    <error lineNumber="14" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="14" message="Cannot resolve method 'getValue()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784456986">
+    <error lineNumber="11" message="Diamond types are not supported at this language level" />
+    <error lineNumber="11" message="Method references are not supported at this language level" />
+    <error lineNumber="12" message="Diamond types are not supported at this language level" />
+    <error lineNumber="12" message="Method references are not supported at this language level" />
+    <error lineNumber="13" message="Diamond types are not supported at this language level" />
+    <error lineNumber="13" message="Method references are not supported at this language level" />
+    <error lineNumber="14" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="14" message="Cannot resolve method 'getValue()'" />
+    <error lineNumber="14" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784495444">
+    <error lineNumber="11" message="Cannot resolve symbol 'SimpleEntry'" />
+    <error lineNumber="12" message="Cannot resolve symbol 'SimpleEntry'" />
+    <error lineNumber="13" message="Cannot resolve symbol 'SimpleEntry'" />
+    <error lineNumber="14" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="14" message="Cannot resolve method 'getValue()'" />
+    <error lineNumber="14" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784502381">
+    <error lineNumber="12" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="13" message="Cannot resolve symbol 'SimpleEntry'" />
+    <error lineNumber="14" message="Cannot resolve symbol 'SimpleEntry'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+    <error lineNumber="15" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784507828">
+    <error lineNumber="12" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="13" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="Cannot resolve symbol 'SimpleEntry'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+    <error lineNumber="15" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784509034">
+    <error lineNumber="12" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="13" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+    <error lineNumber="15" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784527913">
+    <error lineNumber="12" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="13" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="',' or ')' expected" />
+    <error lineNumber="14" message="Cannot resolve symbol 'P'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+    <error lineNumber="15" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784528911">
+    <error lineNumber="12" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="13" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+    <error lineNumber="15" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784533041">
+    <error lineNumber="12" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="13" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="',' or ')' expected" />
+    <error lineNumber="14" message="Cannot resolve symbol 'P'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+    <error lineNumber="15" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784535109">
+    <error lineNumber="12" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="13" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+    <error lineNumber="15" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784536472">
+    <error lineNumber="12" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="13" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784591448">
+    <error lineNumber="12" message="Cannot resolve symbol 'SimpleEntry'" />
+    <error lineNumber="13" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784633554">
+    <error lineNumber="12" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="13" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784693012">
+    <error lineNumber="13" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="14" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784696043" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784788643">
+    <error lineNumber="23" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784789378">
+    <error lineNumber="23" message="Identifier expected" />
+    <error lineNumber="23" message="Identifier expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784796518">
+    <error lineNumber="23" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784798555">
+    <error lineNumber="23" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784801253">
+    <error lineNumber="23" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784804537">
+    <error lineNumber="23" message="'getOrDefault(java.lang.Object, java.util.function.Consumer&lt;com.gildedrose.Item&gt;)' in 'java.util.Map' cannot be applied to '()'" />
+    <error lineNumber="23" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784809086">
+    <error lineNumber="23" message="'getOrDefault(java.lang.Object, java.util.function.Consumer&lt;com.gildedrose.Item&gt;)' in 'java.util.Map' cannot be applied to '(java.lang.String)'" />
+    <error lineNumber="23" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784810742">
+    <error lineNumber="23" message="Expression expected" />
+    <error lineNumber="23" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784818031">
+    <error lineNumber="23" message="')' expected" />
+    <error lineNumber="23" message="';' expected" />
+    <error lineNumber="23" message="Unexpected token" />
+    <error lineNumber="23" message="Unexpected token" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784824701">
+    <error lineNumber="23" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784827956" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784864812">
+    <error lineNumber="13" message="')' expected" />
+    <error lineNumber="13" message="')' expected" />
+    <error lineNumber="13" message="')' expected" />
+    <error lineNumber="13" message="Unexpected token" />
+    <error lineNumber="14" message="Cannot resolve symbol 'processNoop'" />
+    <error lineNumber="14" message="Identifier expected" />
+    <error lineNumber="14" message="Unexpected token" />
+    <error lineNumber="15" message="Invalid method declaration; return type required" />
+    <error lineNumber="15" message="Cannot resolve symbol 'toMap'" />
+    <error lineNumber="15" message="Identifier expected" />
+    <error lineNumber="15" message="Cannot resolve symbol 'e'" />
+    <error lineNumber="15" message="'{' or ';' expected" />
+    <error lineNumber="15" message="Cannot resolve symbol 'e'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'e'" />
+    <error lineNumber="15" message="Identifier expected" />
+    <error lineNumber="15" message="Cannot resolve symbol 'e'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784868521" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784883407">
+    <error lineNumber="14" message="')' expected" />
+    <error lineNumber="14" message="')' expected" />
+    <error lineNumber="14" message="')' expected" />
+    <error lineNumber="14" message="Unexpected token" />
+    <error lineNumber="15" message="Invalid method declaration; return type required" />
+    <error lineNumber="15" message="Cannot resolve symbol 'toMap'" />
+    <error lineNumber="15" message="Identifier expected" />
+    <error lineNumber="15" message="Cannot resolve symbol 'e'" />
+    <error lineNumber="15" message="'{' or ';' expected" />
+    <error lineNumber="15" message="Cannot resolve symbol 'e'" />
+    <error lineNumber="15" message="Cannot resolve symbol 'e'" />
+    <error lineNumber="15" message="Identifier expected" />
+    <error lineNumber="15" message="Cannot resolve symbol 'e'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784884924" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784926347">
+    <error lineNumber="12" message="'SimpleEntry(K, V)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="15" message="Cannot resolve method 'getKey()'" />
+    <error lineNumber="15" message="Cannot resolve method 'getValue()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784936386" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784970077">
+    <error lineNumber="11" message="Cannot resolve symbol 'privateMap'" />
+    <error lineNumber="15" message="Cyclic inference" />
+    <error lineNumber="15" message="Cyclic inference" />
+    <error lineNumber="23" message="Cannot resolve method 'getOrDefault(java.lang.String, &lt;method reference&gt;)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784971200">
+    <error lineNumber="11" message="Cannot resolve symbol 'prMap'" />
+    <error lineNumber="15" message="Cyclic inference" />
+    <error lineNumber="15" message="Cyclic inference" />
+    <error lineNumber="23" message="Cannot resolve method 'getOrDefault(java.lang.String, &lt;method reference&gt;)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466784973003" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785239875">
+    <error lineNumber="12" message="'SimpleEntry(java.lang.String, java.util.function.Consumer&lt;com.gildedrose.Item&gt;)' in 'java.util.AbstractMap.SimpleEntry' cannot be applied to '(java.lang.String, &lt;method reference&gt;)'" />
+    <error lineNumber="44" message="'processBrie(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+    <error lineNumber="50" message="'processBrie(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785243776" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785473586">
+    <error lineNumber="25" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="25" message="';' expected" />
+    <error lineNumber="25" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="25" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785477239">
+    <error lineNumber="26" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="26" message="';' expected" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="26" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785478301">
+    <error lineNumber="23" message="Expression expected" />
+    <error lineNumber="24" message="Not a statement" />
+    <error lineNumber="25" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="26" message="';' expected" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="26" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785489996">
+    <error lineNumber="23" message="Cannot resolve method 'equals()'" />
+    <error lineNumber="24" message="Not a statement" />
+    <error lineNumber="25" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="26" message="';' expected" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="26" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785496239">
+    <error lineNumber="24" message="Not a statement" />
+    <error lineNumber="25" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="26" message="';' expected" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="26" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785502044">
+    <error lineNumber="23" message="Cannot resolve symbol 'contine'" />
+    <error lineNumber="23" message="';' expected" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="26" message="';' expected" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="26" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785502950">
+    <error lineNumber="23" message="Cannot resolve symbol 'contine'" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="26" message="';' expected" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="26" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785504513">
+    <error lineNumber="23" message="Cannot resolve symbol 'contin'" />
+    <error lineNumber="23" message="';' expected" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="26" message="';' expected" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="26" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785505699">
+    <error lineNumber="26" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="26" message="';' expected" />
+    <error lineNumber="26" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="26" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785506635">
+    <error lineNumber="27" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="27" message="';' expected" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="27" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785508400">
+    <error lineNumber="24" message="Expression expected" />
+    <error lineNumber="25" message="Not a statement" />
+    <error lineNumber="26" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="27" message="';' expected" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="27" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785526785">
+    <error lineNumber="24" message="Incompatible types. Found: 'java.lang.String', required: 'boolean'" />
+    <error lineNumber="25" message="Not a statement" />
+    <error lineNumber="26" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="27" message="';' expected" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="27" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785530171">
+    <error lineNumber="24" message="Cannot resolve method 'equals()'" />
+    <error lineNumber="25" message="Not a statement" />
+    <error lineNumber="26" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="27" message="';' expected" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="27" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785536937">
+    <error lineNumber="25" message="Not a statement" />
+    <error lineNumber="26" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="27" message="';' expected" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="27" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785540544">
+    <error lineNumber="24" message="'processBrie(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="27" message="';' expected" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="27" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785542744">
+    <error lineNumber="27" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="27" message="';' expected" />
+    <error lineNumber="27" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="27" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785543867">
+    <error lineNumber="28" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="28" message="';' expected" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="28" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785545467">
+    <error lineNumber="25" message="Expression expected" />
+    <error lineNumber="26" message="Not a statement" />
+    <error lineNumber="27" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="28" message="';' expected" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="28" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785548042">
+    <error lineNumber="25" message="Cannot resolve symbol 'io'" />
+    <error lineNumber="26" message="Not a statement" />
+    <error lineNumber="27" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="28" message="';' expected" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="28" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785549335">
+    <error lineNumber="25" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="26" message="Not a statement" />
+    <error lineNumber="27" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="28" message="';' expected" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="28" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785553440">
+    <error lineNumber="25" message="Cannot resolve method 'equals()'" />
+    <error lineNumber="26" message="Not a statement" />
+    <error lineNumber="27" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="28" message="';' expected" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="28" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785558765">
+    <error lineNumber="26" message="Not a statement" />
+    <error lineNumber="27" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="28" message="';' expected" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="28" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785563958">
+    <error lineNumber="25" message="'processTAFKAL80ETC(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="28" message="';' expected" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="28" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785567122">
+    <error lineNumber="28" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="28" message="';' expected" />
+    <error lineNumber="28" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="28" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785567643">
+    <error lineNumber="29" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="29" message="';' expected" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="29" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785574257">
+    <error lineNumber="26" message="Cannot resolve method 'startsWith()'" />
+    <error lineNumber="27" message="Not a statement" />
+    <error lineNumber="28" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="29" message="';' expected" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="29" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785575207">
+    <error lineNumber="27" message="Not a statement" />
+    <error lineNumber="28" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="29" message="';' expected" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="29" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785576417">
+    <error lineNumber="26" message="Cannot resolve method 'startsWith()'" />
+    <error lineNumber="27" message="Not a statement" />
+    <error lineNumber="28" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="29" message="';' expected" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="29" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785581154">
+    <error lineNumber="27" message="Not a statement" />
+    <error lineNumber="28" message="Cannot resolve symbol 'processor'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="29" message="';' expected" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="29" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785588600">
+    <error lineNumber="26" message="'processConjured(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="29" message="';' expected" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="29" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785592454">
+    <error lineNumber="29" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="29" message="';' expected" />
+    <error lineNumber="29" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="29" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785595835">
+    <error lineNumber="27" message="'processConjured(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="30" message="';' expected" />
+    <error lineNumber="30" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="30" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785598003">
+    <error lineNumber="27" message="Cannot resolve symbol 'process'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="30" message="';' expected" />
+    <error lineNumber="30" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="30" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785599518">
+    <error lineNumber="27" message="'processGeneric(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="30" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="30" message="';' expected" />
+    <error lineNumber="30" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="30" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785601014">
+    <error lineNumber="30" message="Cannot resolve symbol 'Conjured'" />
+    <error lineNumber="30" message="';' expected" />
+    <error lineNumber="30" message="Cannot resolve symbol 'Cake'" />
+    <error lineNumber="30" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785604651" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785724821">
+    <error lineNumber="60" message="Cannot resolve symbol 'min'" />
+    <error lineNumber="60" message="Variable 'item' is already defined in the scope" />
+    <error lineNumber="60" message="';' expected" />
+    <error lineNumber="60" message="Unexpected token" />
+    <error lineNumber="60" message="Cannot resolve symbol 'quality'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785733370">
+    <error lineNumber="60" message="Cannot resolve method 'min()'" />
+    <error lineNumber="60" message="';' expected" />
+    <error lineNumber="60" message="Not a statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785735402">
+    <error lineNumber="60" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785735922">
+    <error lineNumber="60" message="',' or ')' expected" />
+    <error lineNumber="60" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785738198">
+    <error lineNumber="60" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785742287" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785768122">
+    <error lineNumber="60" message="Unknown class: 'item.quality'" />
+    <error lineNumber="60" message="';' expected" />
+    <error lineNumber="60" message="Unexpected token" />
+    <error lineNumber="60" message="Cannot resolve method 'min(int, int)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785769290" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785811567">
+    <error lineNumber="58" message="Cannot resolve method 'max()'" />
+    <error lineNumber="58" message="';' expected" />
+    <error lineNumber="58" message="Not a statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785812559">
+    <error lineNumber="58" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785818801" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785873640">
+    <error lineNumber="35" message="Ambiguous method call: both 'GildedRose.incrementQuality(Item)' and 'GildedRose.incrementQuality(Item)' match" />
+    <error lineNumber="36" message="Ambiguous method call: both 'GildedRose.incrementQuality(Item)' and 'GildedRose.incrementQuality(Item)' match" />
+    <error lineNumber="37" message="Ambiguous method call: both 'GildedRose.incrementQuality(Item)' and 'GildedRose.incrementQuality(Item)' match" />
+    <error lineNumber="43" message="Ambiguous method call: both 'GildedRose.incrementQuality(Item)' and 'GildedRose.incrementQuality(Item)' match" />
+    <error lineNumber="45" message="Ambiguous method call: both 'GildedRose.incrementQuality(Item)' and 'GildedRose.incrementQuality(Item)' match" />
+    <error lineNumber="60" message="'incrementQuality(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+    <error lineNumber="61" message="'incrementQuality(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785875888">
+    <error lineNumber="35" message="Ambiguous method call: both 'GildedRose.incrementQuality(Item)' and 'GildedRose.incrementQuality(Item)' match" />
+    <error lineNumber="36" message="Ambiguous method call: both 'GildedRose.incrementQuality(Item)' and 'GildedRose.incrementQuality(Item)' match" />
+    <error lineNumber="37" message="Ambiguous method call: both 'GildedRose.incrementQuality(Item)' and 'GildedRose.incrementQuality(Item)' match" />
+    <error lineNumber="43" message="Ambiguous method call: both 'GildedRose.incrementQuality(Item)' and 'GildedRose.incrementQuality(Item)' match" />
+    <error lineNumber="45" message="Ambiguous method call: both 'GildedRose.incrementQuality(Item)' and 'GildedRose.incrementQuality(Item)' match" />
+    <error lineNumber="60" message="'incrementQuality(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+    <error lineNumber="61" message="Identifier or type expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785878644" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785975736">
+    <error lineNumber="60" message="Cannot resolve method 'incrementQuality()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785977485" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785977975">
+    <error lineNumber="60" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785978579" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785992925">
+    <error lineNumber="29" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="31" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="49" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="50" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="52" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="53" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="58" message="'decrementQuality(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+    <error lineNumber="59" message="'decrementQuality(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466785995890">
+    <error lineNumber="29" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="31" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="49" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="50" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="52" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="53" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="58" message="'decrementQuality(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+    <error lineNumber="59" message="Identifier or type expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786000368">
+    <error lineNumber="29" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="31" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="49" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="50" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="52" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="53" message="Ambiguous method call: both 'GildedRose.decrementQuality(Item)' and 'GildedRose.decrementQuality(Item)' match" />
+    <error lineNumber="58" message="'decrementQuality(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+    <error lineNumber="59" message="Identifier expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786001539" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786006980">
+    <error lineNumber="59" message="Cannot resolve symbol 'c'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786010263" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786018675">
+    <error lineNumber="58" message="Cannot resolve method 'decrementQuality()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786019616">
+    <error lineNumber="58" message="'decrementQuality(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '(int)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786021965" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786200315">
+    <error lineNumber="52" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786203506" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786237592">
+    <error lineNumber="49" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786251115">
+    <error lineNumber="50" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786256204">
+    <error lineNumber="50" message="Incompatible types. Found: 'void', required: 'java.lang.Integer'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786261319">
+    <error lineNumber="50" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786262471">
+    <error lineNumber="50" message="Operator '&lt;' cannot be applied to 'int', 'void'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786263736">
+    <error lineNumber="50" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786265345">
+    <error lineNumber="51" message="':' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786266821">
+    <error lineNumber="50" message="':' expected" />
+    <error lineNumber="50" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786269326">
+    <error lineNumber="50" message="Incompatible types. Found: 'java.lang.Object', required: 'java.lang.Integer'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786271321" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786275189">
+    <error lineNumber="51" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786278172" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786309670">
+    <error lineNumber="50" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786312042" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786329803">
+    <error lineNumber="44" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786334997">
+    <error lineNumber="44" message="Expression expected" />
+    <error lineNumber="45" message="Expression expected" />
+    <error lineNumber="45" message="Unexpected token" />
+    <error lineNumber="45" message="Unexpected token" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786337841">
+    <error lineNumber="44" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786339247">
+    <error lineNumber="44" message="'incrementQuality(com.gildedrose.Item, java.lang.Integer)' in 'com.gildedrose.GildedRose' cannot be applied to '(com.gildedrose.Item, boolean)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786342406" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786402363">
+    <error lineNumber="38" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786403080" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786486581">
+    <error lineNumber="41" message="'}' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786491333">
+    <error lineNumber="42" message="'}' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786492459" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786512715">
+    <error lineNumber="38" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786519376">
+    <error lineNumber="38" message="Incompatible types. Found: 'void', required: 'java.lang.Integer'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786531271">
+    <error lineNumber="38" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786536859">
+    <error lineNumber="38" message="Operator '&gt;' cannot be applied to 'boolean', 'void'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786537819">
+    <error lineNumber="38" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786539022">
+    <error lineNumber="39" message="':' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786539897">
+    <error lineNumber="38" message="':' expected" />
+    <error lineNumber="38" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786543716">
+    <error lineNumber="38" message="':' expected" />
+    <error lineNumber="38" message="';' expected" />
+    <error lineNumber="39" message="Cannot resolve symbol 'i'" />
+    <error lineNumber="39" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786544122">
+    <error lineNumber="38" message="':' expected" />
+    <error lineNumber="38" message="';' expected" />
+    <error lineNumber="39" message="Cannot resolve symbol 'it'" />
+    <error lineNumber="39" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786548122">
+    <error lineNumber="38" message="':' expected" />
+    <error lineNumber="38" message="';' expected" />
+    <error lineNumber="39" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786549672">
+    <error lineNumber="38" message="':' expected" />
+    <error lineNumber="38" message="';' expected" />
+    <error lineNumber="39" message="'&gt;' or ',' expected" />
+    <error lineNumber="39" message="Identifier expected" />
+    <error lineNumber="39" message="Identifier expected" />
+    <error lineNumber="39" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786553904">
+    <error lineNumber="38" message="':' expected" />
+    <error lineNumber="38" message="';' expected" />
+    <error lineNumber="39" message="'&gt;' or ',' expected" />
+    <error lineNumber="39" message="Identifier expected" />
+    <error lineNumber="39" message="Identifier expected" />
+    <error lineNumber="39" message="Incompatible types. Found: 'int', required: 'boolean'" />
+    <error lineNumber="40" message="':' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786554322">
+    <error lineNumber="38" message="':' expected" />
+    <error lineNumber="38" message="';' expected" />
+    <error lineNumber="39" message="'&gt;' or ',' expected" />
+    <error lineNumber="39" message="Identifier expected" />
+    <error lineNumber="39" message="Identifier expected" />
+    <error lineNumber="39" message="Incompatible types. Found: 'int', required: 'boolean'" />
+    <error lineNumber="39" message="':' expected" />
+    <error lineNumber="39" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786558630">
+    <error lineNumber="39" message="':' expected" />
+    <error lineNumber="39" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786562260">
+    <error lineNumber="38" message="Incompatible types. Found: 'java.lang.Object', required: 'java.lang.Integer'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786570687">
+    <error lineNumber="40" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786571228" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786575113">
+    <error lineNumber="41" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786576933" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786642296">
+    <error lineNumber="30" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786646682">
+    <error lineNumber="30" message="'decrementQuality(com.gildedrose.Item, java.lang.Integer)' in 'com.gildedrose.GildedRose' cannot be applied to '(com.gildedrose.Item, boolean)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786648722">
+    <error lineNumber="30" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786655364">
+    <error lineNumber="30" message="':' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786656791" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786878826">
+    <error lineNumber="45" message="'decrementQuality(com.gildedrose.Item, java.lang.Integer)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="45" message="Cannot resolve method 'Quality(com.gildedrose.Item, int)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786884006">
+    <error lineNumber="45" message="Cannot resolve method 'decrement(com.gildedrose.Item, int)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786886764" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786925712">
+    <error lineNumber="40" message="'decrementQuality(com.gildedrose.Item, java.lang.Integer)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="40" message="Cannot resolve method 'Quality(com.gildedrose.Item, java.lang.Integer)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786929484">
+    <error lineNumber="40" message="'decrementQuality(com.gildedrose.Item, java.lang.Integer)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="40" message="Cannot resolve symbol 'Qualityitem'" />
+    <error lineNumber="40" message="';' expected" />
+    <error lineNumber="40" message="Unexpected token" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786931040">
+    <error lineNumber="40" message="'decrementQuality(com.gildedrose.Item, java.lang.Integer)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="40" message="';' expected" />
+    <error lineNumber="40" message="';' expected" />
+    <error lineNumber="40" message="Unexpected token" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786932465" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786970433">
+    <error lineNumber="40" message="'decrementQuality(com.gildedrose.Item, java.lang.Integer)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="40" message="Cannot resolve method 'Quality(com.gildedrose.Item, java.lang.Integer)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786971213">
+    <error lineNumber="40" message="Cannot resolve method 'decQuality(com.gildedrose.Item, java.lang.Integer)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786971734" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786976755">
+    <error lineNumber="45" message="Cannot resolve method 'decrementQ(com.gildedrose.Item, int)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786977590">
+    <error lineNumber="45" message="'decrementQuality(com.gildedrose.Item, java.lang.Integer)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="45" message="Cannot resolve method 'Quality(com.gildedrose.Item, int)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786979078">
+    <error lineNumber="45" message="Cannot resolve method 'deQuality(com.gildedrose.Item, int)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466786979565" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787207568">
+    <error lineNumber="50" message="Cannot resolve method 'max(int)'" />
+    <error lineNumber="50" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787208002">
+    <error lineNumber="50" message="',' or ')' expected" />
+    <error lineNumber="50" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787208563">
+    <error lineNumber="50" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787212110" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787252335">
+    <error lineNumber="24" message="Cannot resolve method 'incrQuality(com.gildedrose.Item, int)'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787254119" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787312384">
+    <error lineNumber="50" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787313218" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787361986">
+    <error lineNumber="44" message="'normalIncrement(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787364307" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787368995">
+    <error lineNumber="44" message="',' or ')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787369664" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787557180">
+    <error lineNumber="32" message="';' expected" />
+    <error lineNumber="33" message="'&gt;' or ',' expected" />
+    <error lineNumber="33" message="Identifier expected" />
+    <error lineNumber="33" message="Identifier expected" />
+    <error lineNumber="33" message="Incompatible types. Found: 'int', required: 'boolean'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787558033">
+    <error lineNumber="32" message="Operator '&lt;' cannot be applied to 'boolean', 'int'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787558465">
+    <error lineNumber="32" message="';' expected" />
+    <error lineNumber="33" message="'&gt;' or ',' expected" />
+    <error lineNumber="33" message="Identifier expected" />
+    <error lineNumber="33" message="Identifier expected" />
+    <error lineNumber="33" message="Incompatible types. Found: 'int', required: 'boolean'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787559344">
+    <error lineNumber="35" message="':' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787572388">
+    <error lineNumber="32" message="':' expected" />
+    <error lineNumber="32" message="';' expected" />
+    <error lineNumber="33" message="'&gt;' or ',' expected" />
+    <error lineNumber="33" message="Identifier expected" />
+    <error lineNumber="33" message="Identifier expected" />
+    <error lineNumber="33" message="Incompatible types. Found: 'int', required: 'boolean'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787574878" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787585220">
+    <error lineNumber="36" message="'class' or 'interface' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787588551" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787793263">
+    <error lineNumber="51" message="Identifier expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787795919">
+    <error lineNumber="51" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787802355">
+    <error lineNumber="8" message="'updateQuality()' is already defined in 'com.gildedrose.GildedRose'" />
+    <error lineNumber="51" message="Identifier expected" />
+    <error lineNumber="51" message="Identifier or type expected" />
+    <error lineNumber="51" message="'{' or ';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787804786">
+    <error lineNumber="8" message="'updateQuality()' is already defined in 'com.gildedrose.GildedRose'" />
+    <error lineNumber="51" message="Identifier expected" />
+    <error lineNumber="51" message="'{' or ';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787807222">
+    <error lineNumber="51" message="'{' or ';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787815356" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787835645">
+    <error lineNumber="52" message="',' or ')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787838030" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787847484">
+    <error lineNumber="52" message="')' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466787851269" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788001643">
+    <error lineNumber="14" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788032843">
+    <error lineNumber="14" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788038345">
+    <error lineNumber="14" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788046644">
+    <error lineNumber="14" message="';' expected" />
+    <error lineNumber="14" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788056273">
+    <error lineNumber="14" message="';' expected" />
+    <error lineNumber="14" message="Expression expected" />
+    <error lineNumber="41" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788063032">
+    <error lineNumber="14" message="';' expected" />
+    <error lineNumber="14" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788069258">
+    <error lineNumber="14" message="'normalIncrement(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="14" message="':' expected" />
+    <error lineNumber="14" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788071868">
+    <error lineNumber="14" message="':' expected" />
+    <error lineNumber="14" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788079693">
+    <error lineNumber="14" message="';' expected" />
+    <error lineNumber="14" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788088985">
+    <error lineNumber="15" message="Incompatible types. Found: 'boolean', required: 'java.lang.Integer'" />
+    <error lineNumber="15" message="';' expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788092599">
+    <error lineNumber="15" message="';' expected" />
+    <error lineNumber="15" message="Expression expected" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788097754">
+    <error lineNumber="15" message="';' expected" />
+    <error lineNumber="15" message="Expression expected" />
+    <error lineNumber="18" message="Ambiguous method call: both 'GildedRose.processTAFKAL80ETC(Item)' and 'GildedRose.processTAFKAL80ETC(Item)' match" />
+    <error lineNumber="32" message="'processTAFKAL80ETC(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+    <error lineNumber="39" message="'processTAFKAL80ETC(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788100013">
+    <error lineNumber="15" message="';' expected" />
+    <error lineNumber="15" message="Expression expected" />
+    <error lineNumber="18" message="Ambiguous method call: both 'GildedRose.processTAFKAL80ETC(Item)' and 'GildedRose.processTAFKAL80ETC(Item)' match" />
+    <error lineNumber="32" message="'processTAFKAL80ETC(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+    <error lineNumber="40" message="'processTAFKAL80ETC(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788105344">
+    <error lineNumber="15" message="';' expected" />
+    <error lineNumber="15" message="Expression expected" />
+    <error lineNumber="18" message="Ambiguous method call: both 'GildedRose.processTAFKAL80ETC(Item)' and 'GildedRose.processTAFKAL80ETC(Item)' match" />
+    <error lineNumber="38" message="Missing return statement" />
+    <error lineNumber="40" message="'processTAFKAL80ETC(Item)' is already defined in 'com.gildedrose.GildedRose'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788108824">
+    <error lineNumber="15" message="';' expected" />
+    <error lineNumber="15" message="Expression expected" />
+    <error lineNumber="38" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788122092">
+    <error lineNumber="15" message="'TAFKAL80ETCIncrement(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="15" message="':' expected" />
+    <error lineNumber="15" message="';' expected" />
+    <error lineNumber="38" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788124325">
+    <error lineNumber="15" message="':' expected" />
+    <error lineNumber="15" message="';' expected" />
+    <error lineNumber="38" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788126539">
+    <error lineNumber="15" message="';' expected" />
+    <error lineNumber="15" message="Expression expected" />
+    <error lineNumber="38" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788127408">
+    <error lineNumber="15" message="';' expected" />
+    <error lineNumber="15" message="Expression expected" />
+    <error lineNumber="39" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788135304">
+    <error lineNumber="16" message="Incompatible types. Found: 'boolean', required: 'java.lang.Integer'" />
+    <error lineNumber="16" message="';' expected" />
+    <error lineNumber="39" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788138795">
+    <error lineNumber="16" message="';' expected" />
+    <error lineNumber="16" message="Expression expected" />
+    <error lineNumber="39" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788140248">
+    <error lineNumber="16" message="':' expected" />
+    <error lineNumber="16" message="';' expected" />
+    <error lineNumber="39" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788142265">
+    <error lineNumber="16" message="':' expected" />
+    <error lineNumber="16" message="';' expected" />
+    <error lineNumber="16" message="Expression expected" />
+    <error lineNumber="39" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788147376">
+    <error lineNumber="16" message="'normalIncrement(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="16" message="':' expected" />
+    <error lineNumber="16" message="';' expected" />
+    <error lineNumber="39" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788149370">
+    <error lineNumber="16" message="':' expected" />
+    <error lineNumber="16" message="';' expected" />
+    <error lineNumber="39" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788155200">
+    <error lineNumber="16" message="';' expected" />
+    <error lineNumber="16" message="Expression expected" />
+    <error lineNumber="40" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788156308">
+    <error lineNumber="17" message="';' expected" />
+    <error lineNumber="17" message="Expression expected" />
+    <error lineNumber="40" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788158392">
+    <error lineNumber="17" message="'normalIncrement(com.gildedrose.Item)' in 'com.gildedrose.GildedRose' cannot be applied to '()'" />
+    <error lineNumber="17" message="';' expected" />
+    <error lineNumber="40" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788161100">
+    <error lineNumber="40" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788165348">
+    <error lineNumber="41" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788168604">
+    <error lineNumber="18" message="Cannot resolve method 'updateQuality(com.gildedrose.Item)'" />
+    <error lineNumber="41" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788171094">
+    <error lineNumber="41" message="Missing return statement" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788188119">
+    <error lineNumber="40" message="Cannot resolve symbol 'increment'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788190935" />
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788279838">
+    <error lineNumber="18" message="Cannot resolve symbol 'count'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788283118">
+    <error lineNumber="19" message="Cannot resolve symbol 'count'" />
+  </edit>
+  <edit resource="src/com/gildedrose/GildedRose.java" stamp="1466788286917" />
+</session>

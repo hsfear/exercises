@@ -1,0 +1,152 @@
+<session>
+  <problem type="Unresolved Token" stamp="1466780577657" resource="test/com/gildedrose/GildedRoseTest.java" token="java" />
+  <problem type="Missing Class" stamp="1466780577657" class="String" resource="test/com/gildedrose/GildedRoseTest.java" />
+  <problem type="Missing Class" stamp="1466780577657" class="ByteArrayOutputStream" resource="test/com/gildedrose/GildedRoseTest.java" />
+  <problem type="Unresolved Token" stamp="1466780577657" resource="test/com/gildedrose/GildedRoseTest.java" token="ByteArrayOutputStream" />
+  <problem type="Missing Class" stamp="1466780577657" class="PrintStream" resource="test/com/gildedrose/GildedRoseTest.java" />
+  <problem type="Unresolved Token" stamp="1466780577657" resource="test/com/gildedrose/GildedRoseTest.java" token="PrintStream" />
+  <problem type="Unresolved Token" stamp="1466780577658" resource="test/com/gildedrose/GildedRoseTest.java" token="println" />
+  <problem type="Unresolved Token" stamp="1466780577658" resource="test/com/gildedrose/GildedRoseTest.java" token="System" />
+  <problem type="Unresolved Token" stamp="1466780577658" resource="test/com/gildedrose/GildedRoseTest.java" token="toString" />
+  <problem type="Unresolved Token" stamp="1466781009444" resource="src/com/gildedrose/GildedRose.java" token="i" />
+  <problem type="Unresolved Token" stamp="1466781078972" resource="src/com/gildedrose/GildedRose.java" token="itemsitem" />
+  <problem type="Unresolved Token" stamp="1466781422767" resource="src/com/gildedrose/GildedRose.java" token="equals" />
+  <problem type="Unresolved Token" stamp="1466781465240" resource="src/com/gildedrose/GildedRose.java" token="item" />
+  <problem type="Unresolved Token" stamp="1466783396980" resource="src/com/gildedrose/GildedRose.java" token="eli" />
+  <change action="addition" type="Method" class="GildedRose" method="incrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466783536379" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <problem type="Missing Method" stamp="1466783570787" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="incrementQuality" args="" />
+  <problem type="Unresolved Token" stamp="1466783585695" resource="src/com/gildedrose/GildedRose.java" token="incrementQuality" />
+  <change action="addition" type="Method" class="GildedRose" method="decrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466783694749" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="decrementSellIn" resource="src/com/gildedrose/GildedRose.java" stamp="1466783865522" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processBrie" resource="src/com/gildedrose/GildedRose.java" stamp="1466784008020" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processTAFKAL80ETC" resource="src/com/gildedrose/GildedRose.java" stamp="1466784044737" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="decrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466784065893" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="decrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466784065938" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processGeneric" resource="src/com/gildedrose/GildedRose.java" stamp="1466784088181" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processNoop" resource="src/com/gildedrose/GildedRose.java" stamp="1466784131571" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <problem type="Missing Method" stamp="1466784150229" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="processNoop" args="" />
+  <problem type="Unresolved Token" stamp="1466784339971" resource="src/com/gildedrose/GildedRose.java" token="Collections" />
+  <problem type="Unresolved Token" stamp="1466784339971" resource="src/com/gildedrose/GildedRose.java" token="Stream" />
+  <problem type="Unresolved Token" stamp="1466784441886" resource="src/com/gildedrose/GildedRose.java" token="Collectors" />
+  <problem type="Unresolved Token" stamp="1466784441886" resource="src/com/gildedrose/GildedRose.java" token="getKey" />
+  <problem type="Unresolved Token" stamp="1466784441887" resource="src/com/gildedrose/GildedRose.java" token="getValue" />
+  <problem type="Unresolved Token" stamp="1466784495445" resource="src/com/gildedrose/GildedRose.java" token="SimpleEntry" />
+  <problem type="Missing Method" stamp="1466784502382" class="?" resource="src/com/gildedrose/GildedRose.java" method="SimpleEntry" args="java.lang.String, &lt;method reference&gt;" />
+  <problem type="Unresolved Token" stamp="1466784527913" resource="src/com/gildedrose/GildedRose.java" token="P" />
+  <problem type="Missing Method" stamp="1466784804538" class="?" resource="src/com/gildedrose/GildedRose.java" method="getOrDefault" args="" />
+  <problem type="Missing Method" stamp="1466784809086" class="?" resource="src/com/gildedrose/GildedRose.java" method="getOrDefault" args="java.lang.String" />
+  <problem type="Unresolved Token" stamp="1466784864813" resource="src/com/gildedrose/GildedRose.java" token="processNoop" />
+  <problem type="Unresolved Token" stamp="1466784864813" resource="src/com/gildedrose/GildedRose.java" token="toMap" />
+  <problem type="Unresolved Token" stamp="1466784864813" resource="src/com/gildedrose/GildedRose.java" token="e" />
+  <change action="removal" type="Method" class="GildedRose" method="collect" resource="src/com/gildedrose/GildedRose.java" stamp="1466784868023" args="" visibility="N/A" isTestCode="false" />
+  <problem type="Unresolved Token" stamp="1466784970077" resource="src/com/gildedrose/GildedRose.java" token="privateMap" />
+  <problem type="Unresolved Token" stamp="1466784970077" resource="src/com/gildedrose/GildedRose.java" token="getOrDefault" />
+  <problem type="Unresolved Token" stamp="1466784971200" resource="src/com/gildedrose/GildedRose.java" token="prMap" />
+  <change action="addition" type="Method" class="GildedRose" method="collect" resource="src/com/gildedrose/GildedRose.java" stamp="1466784981837" args="" visibility="N/A" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processC" resource="src/com/gildedrose/GildedRose.java" stamp="1466785242575" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processCo" resource="src/com/gildedrose/GildedRose.java" stamp="1466785242921" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="processC" resource="src/com/gildedrose/GildedRose.java" stamp="1466785242921" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processCon" resource="src/com/gildedrose/GildedRose.java" stamp="1466785243193" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="processCo" resource="src/com/gildedrose/GildedRose.java" stamp="1466785243193" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processConj" resource="src/com/gildedrose/GildedRose.java" stamp="1466785244915" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="processCon" resource="src/com/gildedrose/GildedRose.java" stamp="1466785244915" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processConju" resource="src/com/gildedrose/GildedRose.java" stamp="1466785245146" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="processConj" resource="src/com/gildedrose/GildedRose.java" stamp="1466785245146" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processConjur" resource="src/com/gildedrose/GildedRose.java" stamp="1466785245240" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="processConju" resource="src/com/gildedrose/GildedRose.java" stamp="1466785245240" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processConjure" resource="src/com/gildedrose/GildedRose.java" stamp="1466785245488" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="processConjur" resource="src/com/gildedrose/GildedRose.java" stamp="1466785245488" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="processConjured" resource="src/com/gildedrose/GildedRose.java" stamp="1466785246393" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="processConjure" resource="src/com/gildedrose/GildedRose.java" stamp="1466785246393" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <problem type="Missing Class" stamp="1466785473587" class="Conjured" resource="src/com/gildedrose/GildedRose.java" />
+  <problem type="Unresolved Token" stamp="1466785473587" resource="src/com/gildedrose/GildedRose.java" token="Cake" />
+  <problem type="Unresolved Token" stamp="1466785478301" resource="src/com/gildedrose/GildedRose.java" token="processor" />
+  <problem type="Unresolved Token" stamp="1466785502044" resource="src/com/gildedrose/GildedRose.java" token="contine" />
+  <problem type="Unresolved Token" stamp="1466785504513" resource="src/com/gildedrose/GildedRose.java" token="contin" />
+  <problem type="Missing Method" stamp="1466785540544" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="processBrie" args="" />
+  <problem type="Unresolved Token" stamp="1466785548042" resource="src/com/gildedrose/GildedRose.java" token="io" />
+  <problem type="Missing Method" stamp="1466785563958" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="processTAFKAL80ETC" args="" />
+  <problem type="Unresolved Token" stamp="1466785574257" resource="src/com/gildedrose/GildedRose.java" token="startsWith" />
+  <problem type="Missing Method" stamp="1466785588600" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="processConjured" args="" />
+  <problem type="Unresolved Token" stamp="1466785598004" resource="src/com/gildedrose/GildedRose.java" token="process" />
+  <problem type="Missing Method" stamp="1466785599519" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="processGeneric" args="" />
+  <change action="removal" type="Method" class="GildedRose" method="processNoop" resource="src/com/gildedrose/GildedRose.java" stamp="1466785643479" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="isLegendary" resource="src/com/gildedrose/GildedRose.java" stamp="1466785662909" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <problem type="Missing Class" stamp="1466785724822" class="min" resource="src/com/gildedrose/GildedRose.java" />
+  <problem type="Unresolved Token" stamp="1466785724822" resource="src/com/gildedrose/GildedRose.java" token="quality" />
+  <problem type="Unresolved Token" stamp="1466785733370" resource="src/com/gildedrose/GildedRose.java" token="min" />
+  <problem type="Missing Method" stamp="1466785768122" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="min" args="int, int" />
+  <problem type="Unresolved Token" stamp="1466785811567" resource="src/com/gildedrose/GildedRose.java" token="max" />
+  <change action="addition" type="Method" class="GildedRose" method="incrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466785877710" args="com.gildedrose.Item, java.lang.Integer" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="decrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466786000603" args="com.gildedrose.Item, java.lang.Integer" visibility="private" isTestCode="false" />
+  <problem type="Unresolved Token" stamp="1466786006980" resource="src/com/gildedrose/GildedRose.java" token="c" />
+  <problem type="Missing Method" stamp="1466786018675" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="decrementQuality" args="" />
+  <problem type="Missing Method" stamp="1466786019617" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="decrementQuality" args="int" />
+  <problem type="Missing Method" stamp="1466786339247" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="incrementQuality" args="com.gildedrose.Item, boolean" />
+  <problem type="Unresolved Token" stamp="1466786544122" resource="src/com/gildedrose/GildedRose.java" token="it" />
+  <problem type="Missing Method" stamp="1466786646682" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="decrementQuality" args="com.gildedrose.Item, boolean" />
+  <change action="removal" type="Method" class="GildedRose" method="decrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466786682898" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="incrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466786686886" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <problem type="Missing Method" stamp="1466786878827" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="Quality" args="com.gildedrose.Item, int" />
+  <problem type="Missing Method" stamp="1466786884006" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="decrement" args="com.gildedrose.Item, int" />
+  <problem type="Missing Method" stamp="1466786925713" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="Quality" args="com.gildedrose.Item, java.lang.Integer" />
+  <problem type="Unresolved Token" stamp="1466786929484" resource="src/com/gildedrose/GildedRose.java" token="Qualityitem" />
+  <problem type="Missing Method" stamp="1466786971214" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="decQuality" args="com.gildedrose.Item, java.lang.Integer" />
+  <problem type="Missing Method" stamp="1466786976755" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="decrementQ" args="com.gildedrose.Item, int" />
+  <problem type="Missing Method" stamp="1466786979079" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="deQuality" args="com.gildedrose.Item, int" />
+  <problem type="Missing Method" stamp="1466787252335" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="incrQuality" args="com.gildedrose.Item, int" />
+  <change action="removal" type="Method" class="GildedRose" method="decrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466787265191" args="com.gildedrose.Item, java.lang.Integer" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="decrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466787302232" args="com.gildedrose.Item, java.lang.Integer" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="normalIncrement" resource="src/com/gildedrose/GildedRose.java" stamp="1466787344804" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <problem type="Missing Method" stamp="1466787361986" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="normalIncrement" args="" />
+  <change action="addition" type="Method" class="GildedRose" method="updateQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466787812083" args="com.gildedrose.Item, java.lang.Integer" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="normalIncrement" resource="src/com/gildedrose/GildedRose.java" stamp="1466787913036" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="normalIncrement" resource="src/com/gildedrose/GildedRose.java" stamp="1466787913147" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="decrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466787969397" args="com.gildedrose.Item, java.lang.Integer" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="incrementQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466787969397" args="com.gildedrose.Item, java.lang.Integer" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETC" resource="src/com/gildedrose/GildedRose.java" stamp="1466788108415" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCI" resource="src/com/gildedrose/GildedRose.java" stamp="1466788112912" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETC" resource="src/com/gildedrose/GildedRose.java" stamp="1466788112912" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCIN" resource="src/com/gildedrose/GildedRose.java" stamp="1466788112981" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCI" resource="src/com/gildedrose/GildedRose.java" stamp="1466788112981" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCINc" resource="src/com/gildedrose/GildedRose.java" stamp="1466788113109" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCIN" resource="src/com/gildedrose/GildedRose.java" stamp="1466788113109" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCINcr" resource="src/com/gildedrose/GildedRose.java" stamp="1466788113373" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCINc" resource="src/com/gildedrose/GildedRose.java" stamp="1466788113373" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCINcre" resource="src/com/gildedrose/GildedRose.java" stamp="1466788113455" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCINcr" resource="src/com/gildedrose/GildedRose.java" stamp="1466788113455" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCINcr" resource="src/com/gildedrose/GildedRose.java" stamp="1466788114086" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCINcre" resource="src/com/gildedrose/GildedRose.java" stamp="1466788114086" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCINc" resource="src/com/gildedrose/GildedRose.java" stamp="1466788114236" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCINcr" resource="src/com/gildedrose/GildedRose.java" stamp="1466788114236" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCIN" resource="src/com/gildedrose/GildedRose.java" stamp="1466788114342" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCINc" resource="src/com/gildedrose/GildedRose.java" stamp="1466788114342" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCI" resource="src/com/gildedrose/GildedRose.java" stamp="1466788114863" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCIN" resource="src/com/gildedrose/GildedRose.java" stamp="1466788114863" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCIn" resource="src/com/gildedrose/GildedRose.java" stamp="1466788115086" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCI" resource="src/com/gildedrose/GildedRose.java" stamp="1466788115086" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCInc" resource="src/com/gildedrose/GildedRose.java" stamp="1466788115723" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCIn" resource="src/com/gildedrose/GildedRose.java" stamp="1466788115723" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCIncr" resource="src/com/gildedrose/GildedRose.java" stamp="1466788115987" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCInc" resource="src/com/gildedrose/GildedRose.java" stamp="1466788115987" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCIncre" resource="src/com/gildedrose/GildedRose.java" stamp="1466788116035" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCIncr" resource="src/com/gildedrose/GildedRose.java" stamp="1466788116035" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCIncrem" resource="src/com/gildedrose/GildedRose.java" stamp="1466788116301" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCIncre" resource="src/com/gildedrose/GildedRose.java" stamp="1466788116301" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCIncreme" resource="src/com/gildedrose/GildedRose.java" stamp="1466788116358" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCIncrem" resource="src/com/gildedrose/GildedRose.java" stamp="1466788116358" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCIncremen" resource="src/com/gildedrose/GildedRose.java" stamp="1466788116484" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCIncreme" resource="src/com/gildedrose/GildedRose.java" stamp="1466788116484" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="addition" type="Method" class="GildedRose" method="TAFKAL80ETCIncrement" resource="src/com/gildedrose/GildedRose.java" stamp="1466788116524" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="TAFKAL80ETCIncremen" resource="src/com/gildedrose/GildedRose.java" stamp="1466788116524" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <problem type="Missing Method" stamp="1466788122093" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="TAFKAL80ETCIncrement" args="" />
+  <problem type="Missing Method" stamp="1466788168605" class="GildedRose" resource="src/com/gildedrose/GildedRose.java" method="updateQuality" args="com.gildedrose.Item" />
+  <problem type="Unresolved Token" stamp="1466788188119" resource="src/com/gildedrose/GildedRose.java" token="increment" />
+  <change action="removal" type="Method" class="GildedRose" method="processGeneric" resource="src/com/gildedrose/GildedRose.java" stamp="1466788226989" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="processTAFKAL80ETC" resource="src/com/gildedrose/GildedRose.java" stamp="1466788235854" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="processBrie" resource="src/com/gildedrose/GildedRose.java" stamp="1466788235854" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="processConjured" resource="src/com/gildedrose/GildedRose.java" stamp="1466788235854" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <change action="removal" type="Method" class="GildedRose" method="decrementSellIn" resource="src/com/gildedrose/GildedRose.java" stamp="1466788266274" args="com.gildedrose.Item" visibility="private" isTestCode="false" />
+  <problem type="Unresolved Token" stamp="1466788279838" resource="src/com/gildedrose/GildedRose.java" token="count" />
+  <change action="removal" type="Method" class="GildedRose" method="updateQuality" resource="src/com/gildedrose/GildedRose.java" stamp="1466788290563" args="com.gildedrose.Item, java.lang.Integer" visibility="private" isTestCode="false" />
+</session>
