@@ -1,4 +1,4 @@
-package exercises.racing.tirepressure;
+package katas.racing.tirepressure;
 
 public interface Sensor {
     public double checkPressure();

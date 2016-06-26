@@ -1,6 +1,6 @@
-package exercises.racing;
+package katas.racing;
 
-import exercises.racing.tirepressure.Sensor;
+import katas.racing.tirepressure.Sensor;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class TestAlarm {
+public class AlarmTest {
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
@@ -26,7 +26,7 @@ public class TestAlarm {
     private double reading;
     private boolean result;
 
-    public TestAlarm(double low, double high, double reading, boolean result) {
+    public AlarmTest(double low, double high, double reading, boolean result) {
         this.low = low;
         this.high = high;
         this.reading = reading;

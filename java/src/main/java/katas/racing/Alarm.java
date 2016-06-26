@@ -1,6 +1,6 @@
-package exercises.racing;
+package katas.racing;
 
-import exercises.racing.tirepressure.Sensor;
+import katas.racing.tirepressure.Sensor;
 
 public class Alarm {
     private Sensor sensor;
