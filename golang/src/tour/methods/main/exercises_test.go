@@ -23,3 +23,16 @@ func TestSqrt(t *testing.T) {
 		t.Error(fmt.Sprintf("sqrt did not return correct error string %s", s))
 	}
 }
+
+func TestMyReader(t *testing.T) {
+	var buffer [1]byte
+	reader := main.MyReader{}
+
+	var n int
+	for next := 0; next < 10; next += n {
+		n, _ = reader.Read(buffer[:])
+		if n != 1 || buffer[0] != 'A' {
+			t.Error(fmt.Sprintf("reader returned wrong char %c", buffer[0]))
+		}
+	}
+}

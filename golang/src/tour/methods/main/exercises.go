@@ -39,3 +39,10 @@ func Sqrt(x float64) (float64, error) {
 	}
 	return low, nil
 }
+
+type MyReader struct{}
+
+func (myReader MyReader) Read(buffer []byte) (int, error) {
+	buffer[0] = 'A'
+	return 1, nil
+}
