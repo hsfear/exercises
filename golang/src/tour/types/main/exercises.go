@@ -12,3 +12,12 @@ func WordCount(s string) map[string]int {
 	}
 	return counts
 }
+
+func Fibonacci() func() int {
+	next, following := 0, 1
+	return func() int {
+		last := next
+		next, following = following, next+following
+		return last
+	}
+}
