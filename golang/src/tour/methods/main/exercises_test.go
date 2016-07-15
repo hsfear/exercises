@@ -2,6 +2,7 @@ package main_test
 
 import (
 	"fmt"
+	"strings"
 	"testing"
 	"tour/methods/main"
 )
@@ -34,5 +35,17 @@ func TestMyReader(t *testing.T) {
 		if n != 1 || buffer[0] != 'A' {
 			t.Error(fmt.Sprintf("reader returned wrong char %c", buffer[0]))
 		}
+	}
+}
+
+func TestRot13Reader(t *testing.T) {
+	s := "Hello, world!"
+	reader := main.Rot13Reader{strings.NewReader(s)}
+	buffer := make([]byte, len(s))
+
+	n, _ := reader.Read(buffer)
+
+	if n != len(s) || string(buffer) != "Uryyb, jbeyq!" {
+		t.Error(fmt.Sprintf("reader returned wrong char %s", string(buffer)))
 	}
 }
