@@ -1,12 +1,12 @@
-package packages_test
+package main_test
 
 import (
 	"testing"
-	"tour/packages"
+	"tour/packages/main"
 )
 
 func TestSwap(t *testing.T) {
-	a, b := packages.Swap("1", "2")
+	a, b := main.Swap("1", "2")
 	if a != "2" {
 		t.Error("a did not get correct value")
 	}
