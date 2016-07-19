@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"io"
-	//    "io/ioutil"
 	"net/http"
 	"os"
 	"strings"
@@ -19,7 +18,6 @@ func main() {
 			fmt.Fprintf(os.Stderr, "fetch: %v\n", err)
 			os.Exit(1)
 		}
-		fmt.Fprintf(os.Stderr, "response code: %v", resp.Status)
 		_, err = io.Copy(os.Stdout, resp.Body)
 		resp.Body.Close()
 		if err != nil {
