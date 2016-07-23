@@ -15,10 +15,16 @@ var data = []struct {
 	{math.MaxUint64, 64},
 }
 
-func TestPopcount(t *testing.T) {
+func TestPopCount(t *testing.T) {
 	for _, values := range data {
 		if values.popcount != PopCount(values.i) {
 			t.Errorf("Failed to get correct population count for %d: expected %d, got %d", values.i, values.popcount, PopCount(values.i))
 		}
+	}
+}
+
+func BenchmarkPopCount(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		PopCount(math.MaxUint64)
 	}
 }
