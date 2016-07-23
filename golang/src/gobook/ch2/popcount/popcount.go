@@ -28,3 +28,19 @@ func PopCount2(x uint64) int {
 	}
 	return count
 }
+
+func PopCount3(x uint64) int {
+	count := 0
+	for ; x != 0; x >>= 1 {
+		count += int(x & 1)
+	}
+	return count
+}
+
+func PopCount4(x uint64) int {
+	count := 0
+	for ; x != 0; x = x & (x - 1) {
+		count += 1
+	}
+	return count
+}
