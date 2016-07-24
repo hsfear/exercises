@@ -19,7 +19,7 @@ var data = []struct {
 func TestComma(t *testing.T) {
 	for _, values := range data {
 		if actual := Comma(values.s); values.expected != actual {
-			t.Errorf("Failed to insert commas into %s: expected %s, actual %s", values.s, values.expected, actual)
+			t.Errorf("Failed to insert commas into %s: expected: %s, actual: %s", values.s, values.expected, actual)
 		}
 	}
 }
