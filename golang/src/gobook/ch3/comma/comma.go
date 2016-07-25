@@ -14,16 +14,22 @@ func Comma(s string) string {
 		s = s[1:]
 	}
 
-	n := len(s)
-	initial := n % 3
+	end := len(s)
+	if decimal := strings.Index(s, "."); decimal > -1 {
+		end = decimal
+	}
+	initial := end % 3
 	sep := ""
 	if initial > 0 {
 		buf.WriteString(s[:initial])
 		sep = ","
 	}
-	for i := initial; i < n; i += 3 {
+	for i := initial; i < end; i += 3 {
 		buf.WriteString(sep + s[i:(i+3)])
 		sep = ","
+	}
+	if l := len(s); end < l {
+		buf.WriteString(s[end:l])
 	}
 	return buf.String()
 }
