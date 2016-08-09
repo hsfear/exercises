@@ -4,7 +4,7 @@ import akka.actor.ActorSystem
 import akka.pattern.ask
 import akka.testkit.{TestActorRef, TestKit}
 import akka.util.Timeout
-import com.akkademy.messages.{GetRequest, KeyNotFoundException, SetIfNotExists, SetRequest}
+import com.akkademy.messages._
 import org.scalatest._
 
 import scala.concurrent.Await
@@ -55,6 +55,7 @@ class AkkademyDbSpec extends FunSpecLike with Matchers with BeforeAndAfterAll {
         val akkademyDb = actorRef.underlyingActor
         akkademyDb.map.get("key") should equal(Some("value"))
       }
+
       it("should not update the key/value if the key already exists") {
         val actorRef = TestActorRef(new AkkademyDb)
         actorRef ! SetIfNotExists("key", "value")
@@ -62,6 +63,27 @@ class AkkademyDbSpec extends FunSpecLike with Matchers with BeforeAndAfterAll {
 
         val akkademyDb = actorRef.underlyingActor
         akkademyDb.map.get("key") should equal(Some("value"))
+      }
+    }
+
+    describe("Delete") {
+      it("should delete the key/value if it exists") {
+        val actorRef = TestActorRef(new AkkademyDb)
+
+        actorRef ! SetRequest("key", "value")
+        actorRef ! Delete("key")
+
+        val akkademyDb = actorRef.underlyingActor
+        akkademyDb.map.get("key") should equal(None)
+      }
+
+      it("should succeed even it the key/value doesn't exists") {
+        val actorRef = TestActorRef(new AkkademyDb)
+
+        actorRef ! Delete("key")
+
+        val akkademyDb = actorRef.underlyingActor
+        akkademyDb.map.get("key") should equal(None)
       }
     }
   }

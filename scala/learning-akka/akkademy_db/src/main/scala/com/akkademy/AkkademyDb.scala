@@ -4,7 +4,7 @@ import akka.actor.{Actor, ActorSystem, Props, Status}
 import akka.event.Logging
 
 import scala.collection.mutable.HashMap
-import com.akkademy.messages.{GetRequest, KeyNotFoundException, SetIfNotExists, SetRequest}
+import com.akkademy.messages._
 class AkkademyDb extends Actor {
   val map = new HashMap[String, Object]
   val log = Logging(context.system, this)
@@ -27,6 +27,10 @@ class AkkademyDb extends Actor {
         case Some(x) => sender() ! x
         case None => sender() ! Status.Failure(new KeyNotFoundException(key))
       }
+
+    case Delete(key) =>
+      map -= key
+      sender() ! Status.Success
 
     case o => Status.Failure(new ClassNotFoundException)
   }
