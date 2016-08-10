@@ -3,7 +3,7 @@ import akka.actor.{ActorSystem, Props}
 import akka.pattern.ask
 import akka.testkit.TestProbe
 import akka.util.Timeout
-import com.akkademy.messages.{GetRequest, SetRequest}
+import com.akkademy.messages.{GetRequest, KeyNotFoundException, SetRequest}
 import com.akkademy._
 import org.scalatest.{FunSpec, Matchers}
 
@@ -73,7 +73,7 @@ class AskAndTellDemoSpec extends FunSpec with Matchers {
 
       //Cache gets the message first. Fail cache request.
       cacheProbe.expectMsgType[GetRequest]
-      cacheProbe.reply(Failure(new Exception("no cache")))
+      cacheProbe.reply(Failure(new KeyNotFoundException("http://www.google.com")))
 
       //if it fails, http client gets a request
       httpClientProbe.expectMsgType[String]

@@ -5,7 +5,7 @@ import java.util.concurrent.TimeoutException
 import akka.actor.Status.Failure
 import akka.actor.{Actor, ActorRef, Props}
 import akka.util.Timeout
-import com.akkademy.messages.{GetRequest, SetRequest}
+import com.akkademy.messages.{GetRequest, KeyNotFoundException, SetRequest}
 
 class TellDemoArticleParser(cacheActorPath: String,
                             httpClientActorPath: String,
@@ -33,8 +33,6 @@ class TellDemoArticleParser(cacheActorPath: String,
       val extraActor = buildExtraActor(sender(), uri)
 
       cacheActor.tell(GetRequest(uri), extraActor)
-      httpClientActor.tell("test", extraActor)
-
       context.system.scheduler.scheduleOnce(timeout.duration, extraActor, "timeout")
   }
 
@@ -64,7 +62,10 @@ class TellDemoArticleParser(cacheActorPath: String,
           senderRef ! body
           context.stop(self)
 
-        case t => //We can get a cache miss
+        case Failure(_: KeyNotFoundException) => // If we get a cache failure, do the http request
+          httpClientActor ! "test"
+
+        case t => //Ignore anything we don't know
           println("ignoring msg: " + t.getClass)
       }
     }))
