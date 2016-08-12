@@ -17,7 +17,5 @@ package object ch4 {
   }
 
   def traverse[A, B](a: List[A])(f: A => Option[B]): Option[List[B]] =
-    a.foldRight[Option[List[B]]](Some(Nil))((next, acc: Option[List[B]]) =>
-      f(next).flatMap(fnext => acc.map(list =>  fnext :: list)))
-
+    a.foldRight[Option[List[B]]](Some(Nil))((next, acc) => map2(f(next), acc)(_ :: _))
 }
