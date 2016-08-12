@@ -12,4 +12,13 @@ class Ch4Spec extends FunSpec with Matchers {
       assert(map2[Int, Int, Int](None, Some(20))(_ + _) == None)
     }
   }
+
+  describe("sequence") {
+    it("converts a list of options to an option of a list") {
+      assert(sequence(List(Some(1), Some(2))) == Some(List(1,2)))
+    }
+    it("returns None if any members of the list are None") {
+      assert(sequence(List(Some(1), None, Some(2))) == None)
+    }
+  }
 }

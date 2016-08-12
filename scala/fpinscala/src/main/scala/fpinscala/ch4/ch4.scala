@@ -6,4 +6,13 @@ package object ch4 {
     case (Some(v1), Some(v2)) => Some(f(v1, v2))
     case (_, _) => None
   }
+
+  def sequence[A](a: List[Option[A]]): Option[List[A]] = {
+    def go[A](acc: List[A], options: List[Option[A]]): Option[List[A]] = options match {
+      case Nil => Some(acc.reverse)
+      case None :: _ => None
+      case Some(o) :: os => go(o :: acc, os)
+    }
+    go(Nil, a)
+  }
 }
