@@ -15,4 +15,10 @@ package object ch4 {
     }
     go(Nil, a)
   }
+
+  def traverse[A, B](a: List[A])(f: A => Option[B]): Option[List[B]] = a match {
+    case Nil => Some(Nil)
+    case h :: t =>
+      f(h).flatMap(hResult => (traverse(t)(f)).flatMap(list => Some(hResult :: list)))
+  }
 }

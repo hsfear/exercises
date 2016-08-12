@@ -21,4 +21,14 @@ class Ch4Spec extends FunSpec with Matchers {
       assert(sequence(List(Some(1), None, Some(2))) == None)
     }
   }
+
+  describe("traverse") {
+    it("converts a list of values and a function that maps a value to an option to an option of a list") {
+      assert(traverse(List(1, 2))(Some(_)) == Some(List(1,2)))
+    }
+    it("returns None if the function returns None for any of the values") {
+      def testf(i: Int): Option[Int] = if (i != 2) Some(i) else None
+      assert(traverse(List(1, 2, 3))(testf) == None)
+    }
+  }
 }
