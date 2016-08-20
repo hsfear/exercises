@@ -18,11 +18,12 @@ class QuizActor(out: ActorRef, sourceLang: Lang, targetLang: Lang, vocabulary: V
   }
 
   def sendWord() = {
-    vocabulary.findRandomVocabulary(sourceLang, targetLang).map { v =>
-      out ! s"Please translate '${v.word}'"
-      word = v.word
-    } getOrElse {
-      out ! s"I don't know any word for ${sourceLang.code} and ${targetLang.code}"
+    vocabulary.findRandomVocabulary(sourceLang, targetLang) match {
+      case Some(v) =>
+        out ! s"Please translate '${v.word}'"
+        word = v.word
+      case None =>
+        out ! s"I don't know any word for ${sourceLang.code} and ${targetLang.code}"
     }
   }
 
