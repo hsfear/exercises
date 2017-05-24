@@ -1,0 +1,12 @@
+*.tmp
+.DS_Store
+*.iml
+*.ipr
+*.iws
+*.jar
+.project
+.settings
+.idea
+.classpath
+.metadata/
+dist/
