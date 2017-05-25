@@ -2,7 +2,8 @@ class Invokable {
     var numberOfInvocations: Int = 0
         private set
     operator fun invoke(): Invokable {
-        TODO()
+        numberOfInvocations = numberOfInvocations + 1
+        return this
     }
 }
 

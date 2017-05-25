@@ -1,4 +1,5 @@
-operator fun MyDate.rangeTo(other: MyDate) = TODO()
+operator fun MyDate.rangeTo(other: MyDate) = DateRange(this, other)
+
 
 class DateRange(override val start: MyDate, override val endInclusive: MyDate): ClosedRange<MyDate>
 
