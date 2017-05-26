@@ -1,1 +1,1 @@
-fun Shop.getSetOfCustomers(): Set<Customer> = TODO()
+fun Shop.getSetOfCustomers(): Set<Customer> = this.customers.toSet()
