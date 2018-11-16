@@ -28,6 +28,14 @@ public class Fraction {
         this(integer, 1);
     }
 
+    public int getNumerator() {
+        return numerator;
+    }
+
+    public int getDenominator() {
+        return denominator;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -52,6 +60,11 @@ public class Fraction {
         int newDenominator = this.denominator * that.denominator;
         int newNumerator = (this.numerator * that.denominator) - (that.numerator * this.denominator);
         return new Fraction(newNumerator, newDenominator);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Fraction(%d, %d)", numerator, denominator);
     }
 
     private static int gcd(int a, int b) /*valid for positive integers.*/ {
