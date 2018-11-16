@@ -8,8 +8,9 @@ public class Fraction {
     private int denominator;
 
     Fraction(int numerator, int denominator) {
-        this.numerator = numerator;
-        this.denominator = denominator;
+        int gcd = gcd(numerator, denominator);
+        this.numerator = numerator / gcd;
+        this.denominator = denominator / gcd;
     }
 
     @Override
@@ -36,5 +37,15 @@ public class Fraction {
         int newDenominator = this.denominator * that.denominator;
         int newNumerator = (this.numerator * that.denominator) - (that.numerator * this.denominator);
         return new Fraction(newNumerator, newDenominator);
+    }
+
+    private static int gcd(int a, int b) /*valid for positive integers.*/ {
+        // Euclid
+        while(b > 0) {
+            int c = a % b;
+            a = b;
+            b = c;
+        }
+        return a;
     }
 }

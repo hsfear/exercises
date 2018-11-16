@@ -13,6 +13,11 @@ class AcceptanceTest {
     }
 
     @Test
+    void fractionsAreNormalized() {
+        assertThat(new Fraction(2, 4), is(new Fraction(1, 2)));
+    }
+
+    @Test
     void addAFraction() {
         assertThat(new Fraction(1, 2).add(new Fraction(1,3)), is(new Fraction(5, 6)));
     }
