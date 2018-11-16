@@ -23,4 +23,10 @@ public class Fraction {
         int newNumerator = (this.numerator * that.denominator) + (that.numerator * this.denominator);
         return new Fraction(newNumerator, newDenominator);
     }
+
+    public Fraction subtract(Fraction that) {
+        int newDenominator = this.denominator * that.denominator;
+        int newNumerator = (this.numerator * that.denominator) - (that.numerator * this.denominator);
+        return new Fraction(newNumerator, newDenominator);
+    }
 }

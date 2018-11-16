@@ -9,14 +9,18 @@ public class AcceptanceTest {
     @Test
     public void createAFraction() {
         Fraction fraction = new Fraction(1, 2);
-        assertThat(fraction.getNumerator(), is(1));
-        assertThat(fraction.getDenominator(), is(2));
+        assertThat(fraction, allOf(hasProperty("numerator", is(1)), hasProperty("denominator", is(2))));
     }
 
     @Test
     public void addAFraction() {
         Fraction result = new Fraction(1, 2).add(new Fraction(1,3));
-        assertThat(result.getNumerator(), is(5));
-        assertThat(result.getDenominator(), is(6));
+        assertThat(result, allOf(hasProperty("numerator", is(5)), hasProperty("denominator", is(6))));
+    }
+
+    @Test
+    public void subtractAFraction() {
+        Fraction result = new Fraction(1, 2).subtract(new Fraction(1,3));
+        assertThat(result, allOf(hasProperty("numerator", is(1)), hasProperty("denominator", is(6))));
     }
 }
