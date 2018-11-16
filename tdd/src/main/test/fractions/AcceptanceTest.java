@@ -7,20 +7,17 @@ import static org.hamcrest.Matchers.*;
 public class AcceptanceTest {
 
     @Test
-    public void createAFraction() {
-        Fraction fraction = new Fraction(1, 2);
-        assertThat(fraction, allOf(hasProperty("numerator", is(1)), hasProperty("denominator", is(2))));
+    public void fractionsCanBeEqual() {
+        assertThat(new Fraction(1, 2).equals(new Fraction(1, 2)), is(true));
     }
 
     @Test
     public void addAFraction() {
-        Fraction result = new Fraction(1, 2).add(new Fraction(1,3));
-        assertThat(result, allOf(hasProperty("numerator", is(5)), hasProperty("denominator", is(6))));
+        assertThat(new Fraction(1, 2).add(new Fraction(1,3)), is(new Fraction(5, 6)));
     }
 
     @Test
     public void subtractAFraction() {
-        Fraction result = new Fraction(1, 2).subtract(new Fraction(1,3));
-        assertThat(result, allOf(hasProperty("numerator", is(1)), hasProperty("denominator", is(6))));
+        assertThat(new Fraction(1, 2).subtract(new Fraction(1,3)), is(new Fraction(1, 6)));
     }
 }
