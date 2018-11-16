@@ -15,6 +15,8 @@ class AcceptanceTest {
     @Test
     void fractionsAreNormalized() {
         assertThat(new Fraction(2, 4), is(new Fraction(1, 2)));
+        assertThat(new Fraction(-2, 4), is(new Fraction(-1, 2)));
+        assertThat(new Fraction(-1, -2), is(new Fraction(1, 2)));
     }
 
     @Test

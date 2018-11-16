@@ -2,13 +2,19 @@ package fractions;
 
 import java.util.Objects;
 
+import static java.lang.Math.abs;
+
 public class Fraction {
 
     private int numerator;
     private int denominator;
 
     Fraction(int numerator, int denominator) {
-        int gcd = gcd(numerator, denominator);
+        if (numerator < 0 && denominator < 0) {
+            numerator = abs(numerator);
+            denominator = abs(denominator);
+        }
+        int gcd = gcd(abs(numerator), abs(denominator));
         this.numerator = numerator / gcd;
         this.denominator = denominator / gcd;
     }
