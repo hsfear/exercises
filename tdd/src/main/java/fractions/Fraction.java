@@ -10,6 +10,9 @@ public class Fraction {
     private int denominator;
 
     Fraction(int numerator, int denominator) {
+        if (denominator == 0) {
+            throw new ArithmeticException("/ by zero");
+        }
         if (numerator == 0) {
             this.numerator = 0;
             this.denominator = 1;

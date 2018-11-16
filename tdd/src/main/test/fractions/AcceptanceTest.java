@@ -2,9 +2,11 @@ package fractions;
 
 import org.hamcrest.Description;
 import org.hamcrest.TypeSafeMatcher;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
 
 class AcceptanceTest {
@@ -24,6 +26,12 @@ class AcceptanceTest {
     @Test
     void allZerosAreTheSame() {
         assertThat(new Fraction(0, 3), matchesFraction(new Fraction(0, 10)));
+    }
+
+    @Test
+    void denominatorCantBeZero() {
+        Exception e = Assertions.assertThrows(ArithmeticException.class, () -> new Fraction(1, 0));
+        assertThat(e.getMessage(), containsString("/ by zero"));
     }
 
     @Test
