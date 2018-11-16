@@ -17,4 +17,10 @@ public class Fraction {
     public int getDenominator() {
         return denominator;
     }
+
+    public Fraction add(Fraction that) {
+        int newDenominator = this.denominator * that.denominator;
+        int newNumerator = (this.numerator * that.denominator) + (that.numerator * this.denominator);
+        return new Fraction(newNumerator, newDenominator);
+    }
 }
