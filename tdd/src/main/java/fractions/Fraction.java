@@ -22,6 +22,10 @@ public class Fraction {
             numerator = abs(numerator);
             denominator = abs(denominator);
         }
+        if (denominator < 0) {
+            numerator = -1 * numerator;
+            denominator = abs(denominator);
+        }
         int gcd = gcd(abs(numerator), abs(denominator));
         this.numerator = numerator / gcd;
         this.denominator = denominator / gcd;
@@ -31,11 +35,11 @@ public class Fraction {
         this(integer, 1);
     }
 
-    public int getNumerator() {
+    int getNumerator() {
         return numerator;
     }
 
-    public int getDenominator() {
+    int getDenominator() {
         return denominator;
     }
 

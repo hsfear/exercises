@@ -40,25 +40,39 @@ class AcceptanceTest {
     }
 
     @Test
+    void signGoesWithNumerator() {
+        assertThat(new Fraction(1, -2), is(new Fraction(-1, 2)));
+    }
+
+    @Test
     void addAFraction() {
         assertThat(new Fraction(1, 2).add(new Fraction(1,3)), matchesFraction(new Fraction(5, 6)));
         assertThat(new Fraction(1, 4).add(new Fraction(1,4)), matchesFraction(new Fraction(1, 2)));
+        assertThat(new Fraction(0).add(new Fraction(1,4)), matchesFraction(new Fraction(1, 4)));
+        assertThat(new Fraction(1, 4).add(new Fraction(0)), matchesFraction(new Fraction(1, 4)));
     }
 
     @Test
     void subtractAFraction() {
         assertThat(new Fraction(1, 2).subtract(new Fraction(1,3)), matchesFraction(new Fraction(1, 6)));
         assertThat(new Fraction(5, 6).subtract(new Fraction(1,3)), matchesFraction(new Fraction(1, 2)));
+        assertThat(new Fraction(1, 2).subtract(new Fraction(0)), matchesFraction(new Fraction(1, 2)));
+        assertThat(new Fraction(0).subtract(new Fraction(1, 2)), matchesFraction(new Fraction(-1, 2)));
     }
 
     @Test
     void multiplyAFraction() {
         assertThat(new Fraction(1, 2).times(new Fraction(1,3)), matchesFraction(new Fraction(1, 6)));
+        assertThat(new Fraction(1, 2).times(new Fraction(0)), matchesFraction(new Fraction(0)));
+        assertThat(new Fraction(0).times(new Fraction(1, 2)), matchesFraction(new Fraction(0)));
     }
 
     @Test
     void divideAFraction() {
         assertThat(new Fraction(1, 6).dividedBy(new Fraction(1,3)), matchesFraction(new Fraction(1, 2)));
+        assertThat(new Fraction(0).dividedBy(new Fraction(1,3)), matchesFraction(new Fraction(0)));
+        Exception e = Assertions.assertThrows(ArithmeticException.class, () -> new Fraction(1, 2).dividedBy(new Fraction(0)));
+        assertThat(e.getMessage(), containsString("/ by zero"));
     }
 
     private static TypeSafeMatcher<Fraction> matchesFraction(final Fraction expected) {
