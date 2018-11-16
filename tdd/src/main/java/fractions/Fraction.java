@@ -54,14 +54,26 @@ public class Fraction {
     }
 
     Fraction add(Fraction that) {
-        int newDenominator = this.denominator * that.denominator;
         int newNumerator = (this.numerator * that.denominator) + (that.numerator * this.denominator);
+        int newDenominator = this.denominator * that.denominator;
         return new Fraction(newNumerator, newDenominator);
     }
 
     Fraction subtract(Fraction that) {
-        int newDenominator = this.denominator * that.denominator;
         int newNumerator = (this.numerator * that.denominator) - (that.numerator * this.denominator);
+        int newDenominator = this.denominator * that.denominator;
+        return new Fraction(newNumerator, newDenominator);
+    }
+
+    Fraction times(Fraction that) {
+        int newNumerator = this.numerator * that.numerator;
+        int newDenominator = this.denominator * that.denominator;
+        return new Fraction(newNumerator, newDenominator);
+    }
+
+    Fraction dividedBy(Fraction that) {
+        int newNumerator = this.numerator * that.denominator;
+        int newDenominator = this.denominator * that.numerator;
         return new Fraction(newNumerator, newDenominator);
     }
 
@@ -72,7 +84,7 @@ public class Fraction {
 
     private static int gcd(int a, int b) /*valid for positive integers.*/ {
         assert(a > 0 && b > 0);
-        
+
         // Euclid
         while(b > 0) {
             int c = a % b;
