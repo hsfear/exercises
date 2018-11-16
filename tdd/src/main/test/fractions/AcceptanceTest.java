@@ -20,6 +20,16 @@ class AcceptanceTest {
     }
 
     @Test
+    void allZerosAreTheSame() {
+        assertThat(new Fraction(0, 3), is(new Fraction(0, 10)));
+    }
+
+    @Test
+    void convertIntegerToFraction() {
+        assertThat(new Fraction(4), is(new Fraction(4, 1)));
+    }
+
+    @Test
     void addAFraction() {
         assertThat(new Fraction(1, 2).add(new Fraction(1,3)), is(new Fraction(5, 6)));
     }

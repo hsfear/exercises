@@ -10,6 +10,11 @@ public class Fraction {
     private int denominator;
 
     Fraction(int numerator, int denominator) {
+        if (numerator == 0) {
+            this.numerator = 0;
+            this.denominator = 1;
+            return;
+        }
         if (numerator < 0 && denominator < 0) {
             numerator = abs(numerator);
             denominator = abs(denominator);
@@ -17,6 +22,10 @@ public class Fraction {
         int gcd = gcd(abs(numerator), abs(denominator));
         this.numerator = numerator / gcd;
         this.denominator = denominator / gcd;
+    }
+
+    Fraction(int integer) {
+        this(integer, 1);
     }
 
     @Override
@@ -46,6 +55,8 @@ public class Fraction {
     }
 
     private static int gcd(int a, int b) /*valid for positive integers.*/ {
+        assert(a > 0 && b > 0);
+        
         // Euclid
         while(b > 0) {
             int c = a % b;
