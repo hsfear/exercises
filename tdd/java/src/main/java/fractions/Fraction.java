@@ -18,10 +18,6 @@ public class Fraction {
             this.denominator = 1;
             return;
         }
-        if (numerator < 0 && denominator < 0) {
-            numerator = abs(numerator);
-            denominator = abs(denominator);
-        }
         if (denominator < 0) {
             numerator = -1 * numerator;
             denominator = abs(denominator);
