@@ -1,17 +1,34 @@
 class Book:
-    def __init__(self, name):
+    def __init__(self, name: str, copies: int):
         self.name = name
-
-    def get_name(self):
-        return self.name
+        self.copies = copies
 
     def __str__(self):
-        return f"Book[{name}]"
+        return f'Book[{self.name}, {self.copies}]'
 
     def __repr__(self):
-        return repr(self.name)
+        return repr((self.name, self.copies))
+
+    def get_name(self) -> str:
+        return self.name
+
+    def increase_number_of_copies(self, delta: int):
+        self.copies += delta
+
+    def decrease_number_of_copies(self, delta: int):
+        self.copies = self.copies - delta if self.copies >= delta else 0
 
 
-book1 = Book("testing")
+book = Book('testing', 10)
+print(book)
 
-print(book1.get_name())
+book.increase_number_of_copies(10)
+print(book)
+
+book.decrease_number_of_copies(5)
+print(book)
+
+book.decrease_number_of_copies(50)
+print(book)
+
+
