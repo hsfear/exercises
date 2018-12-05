@@ -1,0 +1,25 @@
+#!/bin/sh
+
+self=`basename $0`
+usage="$self [author|publish] pkg"
+die() { test $# -gt 0 && echo "$@"; exit 1; }
+
+while getopts ":a:h:" opt; do
+    case $opt in
+        \?) die "$usage" ;;
+        :) die "$usage" ;;
+    esac
+done
+
+if [ $# -gt 1 ]
+then
+    ENV = $1
+    shift
+else
+    ENV = "author"
+fi
+
+[[ $ENV = "author" ]] && PORT="4502" || PORT="4503"
+[[ $self = "installpkg" ]] && INSTALL="true" || INSTALL="false"
+
+curl -u admin:admin -F file=@"$1" -F name="`basename $1`" -F force=true -F install=$INSTALL http://localhost:4502/crx/packmgr/service.jsp

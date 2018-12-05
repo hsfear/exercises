@@ -1,0 +1,7 @@
+#!/bin/sh
+
+while true
+do
+    git lg -n 15
+    sleep 2
+done

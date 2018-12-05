@@ -1,0 +1,62 @@
+#!/bin/sh
+
+self=`basename $0`
+usage="$self url"
+die() { test $# -gt 0 && echo "$@" >&2; exit 1; }
+
+command -v phantomjs > /dev/null 2>&1 || die "phantomjs is not installed."
+test $# -ge 1 || die "$usage"
+URL=$1
+
+JSFILE=`mktemp /tmp/${self}.XXXXXX` || die "Could not create javascript tmpfile."
+trap 'rm -f "$JSFILE"' EXIT
+
+cat <<%END >> "$JSFILE"
+var page = require('webpage').create();
+page.onConsoleMessage = function(msg, lineNum, sourceId) { console.log(msg); };
+
+page.__exit_code = null;
+setInterval(function(){ if (page.__exit_code !== null) phantom.exit(page.__exit_code); }, 100);
+
+page.open('$URL', function(status) {
+  if(status === "success") {
+      var timeout = 6000;
+      var loopInterval = 100;
+
+      var isFinished = function() {
+          return page.evaluate(function(){
+              // scrape the DOM for the HtmlReporter "finished in ..." output
+              var durElem = document.querySelector(".jasmine_html-reporter .duration");
+              return durElem && durElem.textContent && durElem.textContent.toLowerCase().indexOf("finished in") === 0;
+          });
+      };
+
+      var getResultsFromHtmlRunner = function() {
+          return page.evaluate(function(){
+              var resultElem = document.querySelector(".jasmine_html-reporter .alert .bar");
+              return resultElem && resultElem.textContent &&
+                  resultElem.textContent.match(/(\d+) spec.* (\d+) failure.*/) ||
+                 ["Unable to determine success or failure."];
+          });
+      };
+
+      var ival = setInterval(function(){
+          if (isFinished()) {
+              var results = getResultsFromHtmlRunner();
+              var failures = Number(results[2]);
+              page.__exit_code = failures;
+              clearInterval(ival);
+          } else {
+              timeout -= loopInterval;
+              if (timeout <= 0) {
+                  console.log('FAILURE: Page has timed out; aborting.');
+                  page.__exit_code = 2;
+                  clearInterval(ival);
+              }
+          }
+      }, loopInterval);
+  }
+});
+%END
+
+phantomjs "$JSFILE"

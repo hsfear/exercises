@@ -1,0 +1,2 @@
+#!/usr/bin/perl
+print int(rand($ARGV[0] || 10)) + 1, "\n"

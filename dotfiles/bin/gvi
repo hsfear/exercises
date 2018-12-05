@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# edit files that are selected using grep -l
+
+egrep -lr "$@" | xargs -o vi

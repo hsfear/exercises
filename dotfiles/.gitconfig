@@ -1,0 +1,11 @@
+[user]
+	email = howard.fear@oracle.com
+	name = Howard Fear
+[merge]
+	tool = kdiff3
+[pull]
+	rebase = true
+[core]
+	excludesFile = /Users/hfear/.gitignore
+[diff]
+	tool = kdiff3

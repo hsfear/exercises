@@ -1,0 +1,20 @@
+#!/bin/bash
+
+self=`basename $0`
+usage="$self [-a|-r]"
+die() { test $# -gt 0 && echo "$@"; exit 1; }
+
+while getopts "arh?" option; do
+  case "$option" in
+    a)  GIT_OPTION="-a" ;;
+    r)  GIT_OPTION="-r" ;;
+    h|?)  die "$usage" ;;
+  esac
+done
+
+shift $(($OPTIND - 1))
+
+for k in `git branch $GIT_OPTION | egrep -v '\(.*\)' | sed -e 's/^..//' -e 's/ *->.*//'`
+do
+  echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr %Cred%an%Creset" "$k" -- | head -n 1`\\t$k
+done | sort -r

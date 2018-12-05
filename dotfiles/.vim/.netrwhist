@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/hfear/.bash_completion.d'
+let g:netrw_dirhist_2='/Library/WebServer/Documents'
+let g:netrw_dirhist_3='/Users/hfear/cq5/code/omega/buildSrc/src/main/groovy/com/twc/gradle/bundlor'
+let g:netrw_dirhist_4='/Users/hfear/cq5/code/omega/cwp-api/build'
+let g:netrw_dirhist_5='/Users/hfear/cq5/code/omega/tools/xml-faq-importer/src/main/groovy'
+let g:netrw_dirhist_6='/Users/hfear/cq5/code/omega/webcms/src/main/content/jcr_root/apps/businessclass/components/content/megamenu-navlinks'
+let g:netrw_dirhist_7='/Users/hfear/cq5/code/omega/osgi-wrappers'

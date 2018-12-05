@@ -1,0 +1,7 @@
+#!/usr/bin/env groovy
+
+@Grab(group="com.google.guava", module="guava", version="17.0")
+
+import com.google.common.net.InetAddresses
+def addr = InetAddresses.forString(args[0])
+println InetAddresses.getCoercedIPv4Address(addr)

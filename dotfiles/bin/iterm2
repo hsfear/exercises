@@ -1,0 +1,23 @@
+#!/bin/bash
+
+self=`basename $0`
+usage="$self -h | -l | script"
+die() { test $# -gt 0 && echo "$@" >&2; exit 1; }
+
+SCRIPT_DIR=$HOME/.iterm2
+
+while getopts "lh" opt; do
+  case $opt in
+    l) \cd $SCRIPT_DIR; ls *.scpt | sed -e 's/.scpt//'; exit 0;;
+    h) echo $usage >&2; exit 0 ;;
+    \?) echo $usage >&2; exit 0 ;;
+  esac
+done
+shift $(($OPTIND - 1))
+
+test $# -gt 0 || die "$usage"
+
+eval "osascript <<EOF
+$(<$SCRIPT_DIR/$1.scpt)
+EOF
+"

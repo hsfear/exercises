@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ls -l "$@" | egrep '^\S{10}' | awk "{print \$5, \$9}"

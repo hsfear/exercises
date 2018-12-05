@@ -1,0 +1,4 @@
+#!/bin/sh
+# Project level ctags for vim/emacs/etc. support
+
+ctags --file-scope=no -R

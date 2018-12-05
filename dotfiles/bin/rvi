@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Recursive vi for files with names matching pattern
+
+find . -name "$1" -print0 | xargs -o -0 vi 

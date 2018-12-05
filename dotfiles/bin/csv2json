@@ -1,0 +1,3 @@
+#!/bin/bash
+
+jq -R -s -f $HOME/bin/csv2json.jq ${1:-/dev/stdin}
